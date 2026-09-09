@@ -240,6 +240,22 @@ label.opt:has(input:checked){background:var(--primary-soft);border-color:var(--p
 @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 .src{font-size:13px;color:var(--muted);margin-top:14px}
 
+/* Prüfung */
+.card.exam{border-color:color-mix(in srgb,var(--accent) 55%,var(--line));background:linear-gradient(160deg,color-mix(in srgb,var(--accent) 10%,var(--surface)),var(--surface))}
+.card.exam h2{margin-top:2px}
+.card.exam .btn{margin-top:4px}
+.pill{display:inline-flex;align-items:center;height:30px;padding:0 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:13px;font-weight:700;color:var(--muted);white-space:nowrap}
+.timer{font-variant-numeric:tabular-nums;font-weight:800;font-size:16px;color:var(--ink);background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:3px 12px}
+.timer.warn{color:var(--no);border-color:var(--no);background:var(--no-soft);animation:blink 1s steps(2,start) infinite}
+@keyframes blink{to{opacity:.55}}
+.ov .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(46px,1fr));gap:8px;margin:12px 0 16px}
+.cell{height:44px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);font-weight:800;font-size:14px;cursor:pointer;color:var(--muted)}
+.cell.done{background:var(--primary-soft);border-color:var(--primary);color:var(--primary)}
+.cell.cur{outline:2px solid var(--accent);outline-offset:1px;color:var(--ink)}
+.badge{display:inline-block;padding:4px 12px;border-radius:999px;font-size:13px;font-weight:800;margin:6px 0 4px;letter-spacing:.3px}
+.badge.pass{background:var(--ok-soft);color:var(--ok)}
+.badge.fail{background:var(--no-soft);color:var(--no)}
+
 /* Aktionsleiste */
 .dock{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:22px}
 .dock .mid{flex:1;text-align:center}
@@ -353,8 +369,11 @@ const S={
   items:[],
   answers:[],
   idx:0,
-  label:""
+  label:"",
+  exam:null,      /* {deadline, limitMs, startedAt, endedAt} nur im Prüfungssimulator */
+  overview:false
 };
+const EXAM={count:30,minutes:60,perPart:2,pass:50};
 const allKeys=[];
 DATA.forEach(d=>d.parts.forEach((p,i)=>allKeys.push(d.day+"-"+i)));
 (function initSettings(){
@@ -366,7 +385,7 @@ DATA.forEach(d=>d.parts.forEach((p,i)=>allKeys.push(d.day+"-"+i)));
 })();
 function saveSettings(){save(KEY.settings,{picked:[...S.picked],mode:S.mode,shuffle:S.shuffle});}
 function saveRun(){
-  if(S.view==="quiz"||S.view==="result")save(KEY.run,{items:S.items,answers:S.answers,idx:S.idx,mode:S.mode,label:S.label,finished:S.view==="result"});
+  if(S.view==="quiz"||S.view==="result")save(KEY.run,{items:S.items,answers:S.answers,idx:S.idx,mode:S.mode,label:S.label,exam:S.exam,finished:S.view==="result"});
 }
 
 const app=document.getElementById("app");
@@ -388,11 +407,42 @@ function collect(keys){
   }));
   return list;
 }
-function startRun(list,label){
+function startRun(list,label,exam){
   if(!list.length)return;
-  S.items=list;S.answers=list.map(()=>null);S.idx=0;S.label=label;
+  S.items=list;S.answers=list.map(()=>null);S.idx=0;S.label=label;S.exam=exam||null;S.overview=false;
   S.view="quiz";saveRun();render();window.scrollTo(0,0);
 }
+/* Prüfungssimulator: aus jedem Quizteil mindestens EXAM.perPart Fragen, Rest zufällig */
+function examList(){
+  const byPart=[];
+  DATA.forEach(d=>d.parts.forEach((p,i)=>byPart.push(shuffled(collect(new Set([d.day+"-"+i]))))));
+  let list=[],rest=[];
+  byPart.forEach(qs=>{list=list.concat(qs.slice(0,EXAM.perPart));rest=rest.concat(qs.slice(EXAM.perPart));});
+  list=list.concat(shuffled(rest).slice(0,Math.max(0,EXAM.count-list.length)));
+  return shuffled(list).slice(0,EXAM.count);
+}
+function startExam(){
+  const now=Date.now(),limitMs=EXAM.minutes*60000;
+  if(!S.exam)S.prevMode=S.mode;
+  S.mode="pruefen";
+  startRun(examList(),"Prüfungssimulation",{startedAt:now,deadline:now+limitMs,limitMs:limitMs,endedAt:null});
+}
+function fmtTime(ms){
+  const s=Math.max(0,Math.ceil(ms/1000));
+  return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");
+}
+
+/* Countdown */
+let timerId=null;
+function stopTimer(){if(timerId){clearInterval(timerId);timerId=null;}}
+function tickTimer(){
+  if(S.view!=="quiz"||!S.exam){stopTimer();return;}
+  const left=S.exam.deadline-Date.now();
+  const el=document.getElementById("timer");
+  if(el){el.textContent=fmtTime(left);el.classList.toggle("warn",left<=5*60000);}
+  if(left<=0){finish();}
+}
+function startTimer(){stopTimer();tickTimer();timerId=setInterval(tickTimer,1000);}
 
 /* ---------- Theme ---------- */
 (function initTheme(){
@@ -417,10 +467,13 @@ function goStart(){saveRun();S.view="start";render();window.scrollTo(0,0);}
 /* ---------- Startseite ---------- */
 function viewStart(){
   const run=load(KEY.run);
+  const st=load(KEY.settings);S.mode=(st&&st.mode)||S.prevMode||"ueben";
   let resume="";
   if(run&&run.items&&run.items.length&&!run.finished){
     const done=run.answers.filter(x=>x!==null).length;
-    resume='<div class="resume"><div class="t"><b>Durchlauf fortsetzen</b><span>'+esc(run.label)+' · '+done+' von '+run.items.length+' beantwortet · '+(run.mode==="ueben"?"Üben":"Prüfen")+'</span></div>'+
+    const left=run.exam?(run.exam.deadline-Date.now()):null;
+    const info=run.exam?(left>0?"noch "+fmtTime(left)+" Minuten":"Zeit abgelaufen"):(run.mode==="ueben"?"Üben":"Prüfen");
+    resume='<div class="resume"><div class="t"><b>'+(run.exam?"Prüfung fortsetzen":"Durchlauf fortsetzen")+'</b><span>'+esc(run.label)+' · '+done+' von '+run.items.length+' beantwortet · '+info+'</span></div>'+
       '<div class="row"><button class="btn sm" id="resume">Fortsetzen</button><button class="btn sm ghost" id="discard">Verwerfen</button></div></div>';
   }
 
@@ -455,6 +508,11 @@ function viewStart(){
       '</div>'+
       '<p class="modehint" id="modehint"></p>'+
     '</div>'+
+    '<div class="card exam">'+
+      '<div class="between"><div><div class="eyebrow">Prüfungssimulation</div><h2>'+EXAM.count+' Fragen in '+EXAM.minutes+' Minuten</h2></div><span class="pill">Bestanden ab '+EXAM.pass+' %</span></div>'+
+      '<p class="lead">Zufällige Fragen aus allen Quizteilen, keine Auflösung während der Prüfung. Fragen lassen sich überspringen und später ändern. Nach Ablauf der Zeit wird automatisch ausgewertet.</p>'+
+      '<button class="btn wide" id="exam">Prüfung starten</button>'+
+    '</div>'+
     '<div class="card">'+
       '<div class="between"><h2>Eigene Auswahl</h2><span class="row"><button class="link" id="all">Alle</button><button class="link" id="none">Keine</button></span></div>'+
       picks+
@@ -465,11 +523,13 @@ function viewStart(){
   const r=document.getElementById("resume");
   if(r){
     r.addEventListener("click",()=>{
-      S.items=run.items;S.answers=run.answers;S.idx=Math.min(run.idx,run.items.length-1);S.mode=run.mode;S.label=run.label;
+      S.items=run.items;S.answers=run.answers;S.idx=Math.min(run.idx,run.items.length-1);S.mode=run.mode;S.label=run.label;S.exam=run.exam||null;S.overview=false;
+      if(S.exam&&Date.now()>=S.exam.deadline){finish();return;}
       S.view="quiz";render();window.scrollTo(0,0);
     });
     document.getElementById("discard").addEventListener("click",()=>{drop(KEY.run);render();});
   }
+  document.getElementById("exam").addEventListener("click",startExam);
   app.querySelectorAll(".tile").forEach(b=>b.addEventListener("click",()=>{
     const n=+b.dataset.n;
     const all=collect(new Set(allKeys));
@@ -528,37 +588,56 @@ function viewQuiz(){
   }
   prog+='</div>';
 
+  /* Im Prüfmodus bleiben Antworten änderbar, im Übungsmodus ist nach der Auflösung Schluss */
+  const locked=S.mode==="ueben"&&a!==null;
   let body='<div class="answers">'+it.o.map((o,i)=>{
     let cls="ans";
     if(show){ if(i===it.c)cls+=" right"; else if(a.pick===i)cls+=" wrong"; else cls+=" dim"; }
     else if(a!==null&&a.pick===i)cls+=" picked";
-    return '<button class="'+cls+'" data-pick="'+i+'"'+(a!==null?" disabled":"")+'><span class="k">'+LET[i]+'</span><span>'+esc(o)+'</span></button>';
+    return '<button class="'+cls+'" data-pick="'+i+'"'+(locked?" disabled":"")+'><span class="k">'+LET[i]+'</span><span>'+esc(o)+'</span></button>';
   }).join("")+'</div>';
   if(show)body+='<div class="note '+(a.ok?"good":"bad")+'"><b>'+(a.ok?"✓ Richtig":"✕ Leider falsch, richtig ist "+LET[it.c])+'</b>'+esc(it.e)+'</div>';
 
+  /* Übersicht aller Fragen im Prüfmodus */
+  let overview="";
+  if(S.mode==="pruefen"&&S.overview){
+    const open=S.answers.filter(x=>x===null).length;
+    overview='<div class="card ov"><div class="between"><h2>Übersicht</h2><span class="count">'+(open?open+" offen":"alle beantwortet")+'</span></div>'+
+      '<div class="grid">'+S.items.map((_,i)=>'<button class="cell'+(S.answers[i]!==null?" done":"")+(i===S.idx?" cur":"")+'" data-jump="'+i+'">'+(i+1)+'</button>').join("")+'</div>'+
+      '<button class="btn wide" id="submit">'+(S.exam?"Prüfung abgeben":"Jetzt auswerten")+(open?" ("+open+" offen)":"")+'</button></div>';
+  }
+  const timer=S.exam?'<span class="timer" id="timer" aria-label="Restzeit">'+fmtTime(S.exam.deadline-Date.now())+'</span>':'';
+
   app.innerHTML='<div class="view"><div class="card">'+
     prog+
-    '<div class="meta"><span>Frage <b>'+(S.idx+1)+'</b> von '+n+'</span><span>Tag '+it.day+' · '+esc(it.part)+' · '+esc(it.topic)+'</span></div>'+
+    '<div class="meta"><span>Frage <b>'+(S.idx+1)+'</b> von '+n+'</span>'+(S.exam?timer:'<span>Tag '+it.day+' · '+esc(it.part)+' · '+esc(it.topic)+'</span>')+'</div>'+
     '<p class="qtext">'+esc(it.q)+'</p>'+
     body+
-    '<p class="src">Fundstelle: '+esc(it.ref)+'</p>'+
-  '</div></div>'+
+    (S.exam?'':'<p class="src">Fundstelle: '+esc(it.ref)+'</p>')+
+  '</div>'+overview+'</div>'+
   '<div class="dock">'+
     '<button class="btn ghost" id="prev"'+(S.idx===0?" disabled":"")+'>Zurück</button>'+
-    '<span class="mid"><button class="link" id="stop">Auswertung</button></span>'+
-    '<button class="btn" id="next">'+(S.idx===n-1?"Auswerten":"Weiter")+'</button>'+
+    '<span class="mid">'+(S.mode==="pruefen"?'<button class="link" id="ov">'+(S.overview?"Schließen":"Übersicht")+'</button>':'<button class="link" id="stop">Auswertung</button>')+'</span>'+
+    '<button class="btn" id="next">'+(S.idx===n-1?(S.exam?"Abgeben":"Auswerten"):"Weiter")+'</button>'+
   '</div>';
 
   app.querySelectorAll('[data-pick]').forEach(b=>b.addEventListener("click",()=>answer(+b.dataset.pick)));
   document.getElementById("prev").addEventListener("click",()=>go(-1));
   document.getElementById("next").addEventListener("click",()=>go(1));
-  document.getElementById("stop").addEventListener("click",finish);
+  const stop=document.getElementById("stop");if(stop)stop.addEventListener("click",finish);
+  const ov=document.getElementById("ov");if(ov)ov.addEventListener("click",()=>{S.overview=!S.overview;render();if(S.overview){const c=app.querySelector(".ov");if(c)c.scrollIntoView({behavior:"smooth",block:"start"});}});
+  app.querySelectorAll('[data-jump]').forEach(b=>b.addEventListener("click",()=>{S.idx=+b.dataset.jump;S.overview=false;saveRun();render();window.scrollTo(0,0);}));
+  const sub=document.getElementById("submit");if(sub)sub.addEventListener("click",finish);
+  if(S.exam)startTimer();else stopTimer();
 }
 function answer(i){
   const it=S.items[S.idx];
+  const first=S.answers[S.idx]===null;
   S.answers[S.idx]={pick:i,ok:i===it.c};
   saveRun();
-  if(S.mode==="pruefen")go(1);else render();
+  if(S.mode==="pruefen"){
+    if(first&&S.idx<S.items.length-1)go(1);else render();
+  }else render();
 }
 function go(step){
   const n=S.idx+step;
@@ -566,7 +645,11 @@ function go(step){
   if(n>=S.items.length){finish();return;}
   S.idx=n;saveRun();render();window.scrollTo(0,0);
 }
-function finish(){S.view="result";saveRun();render();window.scrollTo(0,0);}
+function finish(){
+  stopTimer();
+  if(S.exam&&!S.exam.endedAt)S.exam.endedAt=Math.min(Date.now(),S.exam.deadline);
+  S.overview=false;S.view="result";saveRun();render();window.scrollTo(0,0);
+}
 
 /* ---------- Auswertung ---------- */
 function viewResult(){
@@ -607,10 +690,15 @@ function viewResult(){
   app.innerHTML='<div class="view"><div class="card">'+
     '<div class="hero">'+
       '<div class="ring"><svg viewBox="0 0 132 132"><circle class="track" cx="66" cy="66" r="'+R+'"/><circle class="val" cx="66" cy="66" r="'+R+'" style="stroke:'+color+';stroke-dasharray:'+C+';stroke-dashoffset:'+C+'"/></svg><div class="num"><span id="pctNum">0</span><small>%</small></div></div>'+
-      '<div class="t"><div class="eyebrow">'+esc(S.label)+'</div><p class="big">'+right+' von '+total+' richtig</p><p>'+bewertung(pct)+(answered<total?' '+(total-answered)+' Fragen blieben offen.':'')+'</p></div>'+
+      '<div class="t"><div class="eyebrow">'+esc(S.label)+'</div>'+
+        (S.exam?'<span class="badge '+(pct>=EXAM.pass?"pass":"fail")+'">'+(pct>=EXAM.pass?"Bestanden":"Nicht bestanden")+'</span>':'')+
+        '<p class="big">'+right+' von '+total+' richtig</p>'+
+        '<p>'+bewertung(pct)+(answered<total?' '+(total-answered)+' Fragen blieben offen.':'')+
+        (S.exam?' Benötigte Zeit '+fmtTime(S.exam.endedAt-S.exam.startedAt)+' von '+EXAM.minutes+':00 Minuten'+(S.exam.endedAt>=S.exam.deadline?', die Zeit war abgelaufen':'')+'.':'')+'</p></div>'+
     '</div>'+
     '<div class="actions">'+
-      '<button class="btn" id="restart">Gleiche Fragen erneut</button>'+
+      (S.exam?'<button class="btn" id="newexam">Neue Prüfung</button>':'')+
+      '<button class="btn'+(S.exam?" soft":"")+'" id="restart">Gleiche Fragen erneut</button>'+
       (wrong.length?'<button class="btn soft" id="repeat">Nur die '+wrong.length+' falschen üben</button>':'')+
       '<button class="btn ghost" id="again">Neue Auswahl</button>'+
     '</div>'+
@@ -630,9 +718,10 @@ function viewResult(){
   }));
 
   document.getElementById("again").addEventListener("click",()=>{drop(KEY.run);S.view="start";render();window.scrollTo(0,0);});
-  document.getElementById("restart").addEventListener("click",()=>startRun(S.items.map(remix),S.label));
+  const ne=document.getElementById("newexam");if(ne)ne.addEventListener("click",startExam);
+  document.getElementById("restart").addEventListener("click",()=>{S.mode=S.exam?"ueben":S.mode;startRun(S.items.map(remix),S.exam?"Prüfungsfragen üben":S.label);});
   const rep=document.getElementById("repeat");
-  if(rep)rep.addEventListener("click",()=>startRun(wrong.map(i=>remix(S.items[i])),wrong.length+" falsche Fragen"));
+  if(rep)rep.addEventListener("click",()=>{if(S.exam)S.mode="ueben";startRun(wrong.map(i=>remix(S.items[i])),wrong.length+" falsche Fragen");});
 }
 function bewertung(p){
   if(p>=92)return "Sehr gut, das Niveau trägt durch die Prüfung.";
@@ -644,6 +733,7 @@ function bewertung(p){
 
 /* ---------- Steuerung ---------- */
 function render(){
+  if(S.view!=="quiz")stopTimer();
   document.body.classList.toggle("quiz",S.view==="quiz");
   document.getElementById("toSel").hidden=S.view==="start";
   if(S.view==="start")viewStart();
@@ -654,7 +744,7 @@ document.addEventListener("keydown",e=>{
   if(S.view!=="quiz")return;
   if(e.key==="ArrowRight"){go(1);e.preventDefault();return;}
   if(e.key==="ArrowLeft"){go(-1);e.preventDefault();return;}
-  if(S.answers[S.idx]!==null)return;
+  if(S.mode==="ueben"&&S.answers[S.idx]!==null)return;
   if(["1","2","3","4"].includes(e.key))answer(+e.key-1);
 });
 /* Wischen auf dem Handy */
