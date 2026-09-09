@@ -1,0 +1,228 @@
+{
+ "day": 4,
+ "name": "Quiz 8",
+ "topic": "Entgeltabrechnung, Fort- und Weiterbildung",
+ "src": "Kapitel 1.15 und 1.16, Buch S. 119 bis 127",
+ "mc": [
+  {
+   "q": "Was versteht man auf der Entgeltabrechnung der Exclusiva GmbH unter dem Bruttoentgelt?",
+   "o": [
+    "Das Entgelt nach Abzug von Lohnsteuer und Sozialabgaben, also den Auszahlungsbetrag",
+    "Das Entgelt einschließlich der Arbeitgeberanteile zur Sozialversicherung",
+    "Das vereinbarte Entgelt vor Abzug von Steuern und Sozialversicherungsbeiträgen",
+    "Das Entgelt zuzüglich Urlaubs- und Weihnachtsgeld, jedoch ohne Zulagen"
+   ],
+   "c": 2,
+   "e": "Das Bruttoentgelt ist das arbeitsvertraglich vereinbarte Entgelt vor allen Abzügen. Der Auszahlungsbetrag nach Abzug von Steuern und Sozialabgaben ist dagegen das Nettoentgelt."
+  },
+  {
+   "q": "Welcher der folgenden Abzüge auf der Entgeltabrechnung ist eine gesetzliche Steuer und kein Sozialversicherungsbeitrag?",
+   "o": [
+    "Die Lohnsteuer",
+    "Der Beitrag zur Rentenversicherung",
+    "Der Beitrag zur Arbeitslosenversicherung",
+    "Der Beitrag zur Pflegeversicherung"
+   ],
+   "c": 0,
+   "e": "Die Lohnsteuer ist eine Steuer, die der Arbeitgeber einbehält und an das Finanzamt abführt. Renten-, Arbeitslosen- und Pflegeversicherung sind dagegen Zweige der gesetzlichen Sozialversicherung."
+  },
+  {
+   "q": "Welche vier Zweige der Sozialversicherung werden in der Regel je etwa zur Hälfte von Arbeitgeber und Arbeitnehmer finanziert?",
+   "o": [
+    "Kranken-, Pflege-, Renten- und Unfallversicherung",
+    "Kranken-, Renten-, Arbeitslosen- und Unfallversicherung",
+    "Pflege-, Renten-, Arbeitslosen- und Berufsunfähigkeitsversicherung",
+    "Kranken-, Pflege-, Renten- und Arbeitslosenversicherung"
+   ],
+   "c": 3,
+   "e": "Kranken-, Pflege-, Renten- und Arbeitslosenversicherung werden paritätisch, also je etwa zur Hälfte, von Arbeitgeber und Arbeitnehmer getragen. Die Unfallversicherung gehört zwar zur Sozialversicherung, wird aber allein vom Arbeitgeber finanziert."
+  },
+  {
+   "q": "Wer trägt die Beiträge zur gesetzlichen Unfallversicherung?",
+   "o": [
+    "Der Arbeitnehmer allein über den Abzug vom Bruttoentgelt",
+    "Der Arbeitgeber allein durch Beiträge an die Berufsgenossenschaft",
+    "Arbeitgeber und Arbeitnehmer je zur Hälfte wie bei der Rentenversicherung",
+    "Der Arbeitnehmer mit einem Zuschuss aus Steuermitteln des Bundes"
+   ],
+   "c": 1,
+   "e": "Die Beiträge zur gesetzlichen Unfallversicherung zahlt ausschließlich der Arbeitgeber an die zuständige Berufsgenossenschaft. Anders als bei den übrigen Sozialversicherungszweigen erscheint daher kein Abzug auf der Entgeltabrechnung."
+  },
+  {
+   "q": "Wovon hängt die Höhe der einbehaltenen Lohnsteuer unter anderem ab?",
+   "o": [
+    "Von der Steuerklasse und der Höhe des steuerpflichtigen Entgelts",
+    "Vom Familienstand und der Größe des beschäftigenden Betriebs",
+    "Von der Beitragsbemessungsgrenze und dem Zusatzbeitrag der Krankenkasse",
+    "Von der Dauer der Betriebszugehörigkeit und der Anzahl der Arbeitstage"
+   ],
+   "c": 0,
+   "e": "Die Lohnsteuer wird anhand der Steuerklasse und der Höhe des steuerpflichtigen Entgelts ermittelt. Beitragsbemessungsgrenze und Zusatzbeitrag betreffen dagegen die Sozialversicherung, nicht die Lohnsteuer."
+  },
+  {
+   "q": "Welche Steuerklasse gilt regelmäßig für ledige Arbeitnehmer ohne Kinder?",
+   "o": [
+    "Steuerklasse III",
+    "Steuerklasse V",
+    "Steuerklasse I",
+    "Steuerklasse II"
+   ],
+   "c": 2,
+   "e": "Ledige, geschiedene oder verwitwete Arbeitnehmer ohne Kinder werden in Steuerklasse I eingestuft. Steuerklasse II gilt für Alleinerziehende mit Entlastungsbetrag, die Klassen III und V für Verheiratete."
+  },
+  {
+   "q": "Welche Steuerklasse wird für ein zweites oder weiteres Beschäftigungsverhältnis angewendet?",
+   "o": [
+    "Steuerklasse II",
+    "Steuerklasse IV",
+    "Steuerklasse V",
+    "Steuerklasse VI"
+   ],
+   "c": 3,
+   "e": "Für ein zweites und jedes weitere Dienstverhältnis gilt die Steuerklasse VI, in der keine Freibeträge berücksichtigt werden. Steuerklasse V ist die Klasse eines Ehepartners in Kombination mit Klasse III."
+  },
+  {
+   "q": "Wer behält die Lohnsteuer und die Sozialversicherungsbeiträge ein und führt sie ab?",
+   "o": [
+    "Der Arbeitnehmer überweist sie nach Erhalt des Bruttoentgelts selbst",
+    "Der Arbeitgeber behält sie ein und führt sie an Finanzamt und Einzugsstelle ab",
+    "Die Krankenkasse zieht sie direkt vom Girokonto des Arbeitnehmers ein",
+    "Das Finanzamt fordert sie nach Abgabe der Steuererklärung vom Arbeitnehmer nach"
+   ],
+   "c": 1,
+   "e": "Der Arbeitgeber ist gesetzlich verpflichtet, Lohnsteuer und Arbeitnehmeranteile vom Bruttoentgelt einzubehalten und an das Finanzamt bzw. die Krankenkasse als Einzugsstelle abzuführen. Der Arbeitnehmer erhält nur das Nettoentgelt ausgezahlt."
+  },
+  {
+   "q": "Was sind vermögenswirksame Leistungen (VL)?",
+   "o": [
+    "Ein zinsloses Arbeitgeberdarlehen, das über die Entgeltabrechnung getilgt wird",
+    "Eine steuerfreie Sachzuwendung des Arbeitgebers, zum Beispiel ein Jobticket",
+    "Ein Zuschuss des Arbeitgebers zur betrieblichen Altersvorsorge per Entgeltumwandlung",
+    "Zusätzliche Arbeitgeberleistungen, die in eine Anlageform des Arbeitnehmers fließen"
+   ],
+   "c": 3,
+   "e": "Vermögenswirksame Leistungen sind Geldleistungen des Arbeitgebers, die direkt in eine vom Arbeitnehmer gewählte Anlageform wie Bausparvertrag oder Fondssparplan eingezahlt werden. Sie sind kein Darlehen und keine betriebliche Altersvorsorge."
+  },
+  {
+   "q": "Wie wird das Nettoentgelt auf der Entgeltabrechnung ermittelt?",
+   "o": [
+    "Bruttoentgelt minus Lohnsteuer, Zuschlagsteuern und Arbeitnehmeranteile zur Sozialversicherung",
+    "Bruttoentgelt minus Arbeitgeberanteile zur Sozialversicherung und Unfallversicherung",
+    "Bruttoentgelt minus Lohnsteuer plus Arbeitnehmeranteile zur Sozialversicherung",
+    "Bruttoentgelt minus Gesamtsozialversicherungsbeitrag von Arbeitgeber und Arbeitnehmer"
+   ],
+   "c": 0,
+   "e": "Das Nettoentgelt ergibt sich aus dem Bruttoentgelt abzüglich Lohnsteuer, Solidaritätszuschlag, ggf. Kirchensteuer und der Arbeitnehmeranteile zur Sozialversicherung. Die Arbeitgeberanteile mindern das Netto nicht, da sie zusätzlich vom Arbeitgeber gezahlt werden."
+  },
+  {
+   "q": "Warum sollten Auszubildende der Exclusiva GmbH ihre Entgeltabrechnung regelmäßig prüfen?",
+   "o": [
+    "Weil die Abrechnung ohne Gegenzeichnung des Arbeitnehmers unwirksam ist",
+    "Weil sich durch die Prüfung die Lohnsteuer nachträglich senken lässt",
+    "Um Fehler bei Stammdaten, Bruttobezügen und Abzügen frühzeitig zu erkennen",
+    "Weil der Arbeitgeber die Abrechnung sonst nicht an das Finanzamt melden darf"
+   ],
+   "c": 2,
+   "e": "Auch in der Entgeltabrechnung können Fehler auftreten, etwa bei Steuerklasse, Krankenkasse, Stundenzahl oder Abzügen. Nur wer die Abrechnung prüft, kann solche Fehler rechtzeitig beim Arbeitgeber reklamieren."
+  },
+  {
+   "q": "Was ist die Kirchensteuer, die auf der Entgeltabrechnung erscheinen kann?",
+   "o": [
+    "Ein Sozialversicherungsbeitrag, der an die Kirchengemeinde abgeführt wird",
+    "Eine Zuschlagsteuer zur Lohnsteuer, die nur Kirchenmitglieder zahlen",
+    "Eine Gemeindegebühr, die unabhängig von der Konfession erhoben wird",
+    "Ein freiwilliger Beitrag, den der Arbeitgeber für alle Beschäftigten zahlt"
+   ],
+   "c": 1,
+   "e": "Die Kirchensteuer wird als Zuschlag zur Lohnsteuer (je nach Bundesland 8 oder 9 Prozent) nur bei Mitgliedern einer steuererhebenden Religionsgemeinschaft einbehalten. Sie ist keine Sozialabgabe und keine Gebühr."
+  },
+  {
+   "q": "Was versteht man unter einer Anpassungsfortbildung?",
+   "o": [
+    "Den Erwerb eines höheren beruflichen Abschlusses, zum Beispiel als Fachwirt",
+    "Die Vorbereitung auf einen Wechsel in einen anderen anerkannten Beruf",
+    "Den Erwerb erster beruflicher Kenntnisse in einer dualen Ausbildung",
+    "Die Aktualisierung vorhandener Kenntnisse an neue Entwicklungen im Beruf"
+   ],
+   "c": 3,
+   "e": "Die Anpassungsfortbildung erhält und aktualisiert die vorhandene berufliche Handlungsfähigkeit, etwa bei neuer Software oder geänderten Rechtsvorschriften. Der Erwerb eines höheren Abschlusses ist dagegen die Aufstiegsfortbildung."
+  },
+  {
+   "q": "Was ist das Ziel einer Aufstiegsfortbildung?",
+   "o": [
+    "Die Qualifikation für höherwertige Aufgaben mit anerkanntem Abschluss",
+    "Die Anpassung vorhandener Kenntnisse an neue Software und Technik",
+    "Der Einstieg in einen völlig anderen Beruf mit eigenem Abschluss",
+    "Die Auffrischung von Ausbildungsinhalten nach längerer Berufspause"
+   ],
+   "c": 0,
+   "e": "Die Aufstiegsfortbildung führt zu einem anerkannten höheren Abschluss und qualifiziert für Fach- und Führungsaufgaben. Die Anpassung an neue Technik ist die Anpassungsfortbildung, der Berufswechsel die Umschulung."
+  },
+  {
+   "q": "Was ist eine Umschulung?",
+   "o": [
+    "Eine Fortbildung, die vorhandene Kenntnisse an neue Anforderungen anpasst",
+    "Eine Fortbildung, die zu einem höheren Abschluss im erlernten Beruf führt",
+    "Eine Bildungsmaßnahme, die zu einem anderen anerkannten Beruf führt",
+    "Eine Einarbeitung, die auf eine neue Stelle im selben Beruf vorbereitet"
+   ],
+   "c": 2,
+   "e": "Eine Umschulung befähigt zu einer anderen beruflichen Tätigkeit und schließt mit einem anerkannten Berufsabschluss ab, etwa wenn der bisherige Beruf nicht mehr ausgeübt werden kann. Anpassungs- und Aufstiegsfortbildung bleiben dagegen im erlernten Beruf."
+  },
+  {
+   "q": "Welcher Abschluss ist eine typische Aufstiegsfortbildung für Kaufleute im E-Commerce?",
+   "o": [
+    "Kaufmann/Kauffrau im E-Commerce (IHK-Abschlussprüfung)",
+    "Fachwirt/Fachwirtin im E-Commerce (IHK-Fortbildungsprüfung)",
+    "Zertifikat Online-Marketing (Kurs an der Volkshochschule)",
+    "Ausbildereignungsprüfung nach AEVO (IHK-Prüfung)"
+   ],
+   "c": 1,
+   "e": "Der Fachwirt bzw. die Fachwirtin im E-Commerce ist der anerkannte IHK-Fortbildungsabschluss, der auf der Ausbildung aufbaut und für Führungsaufgaben qualifiziert. Der Kaufmann im E-Commerce ist der Ausbildungsabschluss selbst, kein Aufstieg."
+  },
+  {
+   "q": "Welche staatliche Förderung unterstützt Aufstiegsfortbildungen wie den Fachwirt finanziell?",
+   "o": [
+    "Berufsausbildungsbeihilfe (BAB)",
+    "Kurzarbeitergeld",
+    "Wohngeld",
+    "Aufstiegs-BAföG (AFBG)"
+   ],
+   "c": 3,
+   "e": "Das Aufstiegs-BAföG nach dem Aufstiegsfortbildungsförderungsgesetz fördert Lehrgangs- und Prüfungsgebühren sowie den Lebensunterhalt bei Aufstiegsfortbildungen. Die Berufsausbildungsbeihilfe unterstützt dagegen nur die Erstausbildung."
+  },
+  {
+   "q": "Welche Lernform ermöglicht orts- und zeitunabhängiges Lernen?",
+   "o": [
+    "E-Learning über eine Online-Lernplattform",
+    "Präsenzseminar bei einem Bildungsträger",
+    "Innerbetriebliche Schulung am Arbeitsplatz",
+    "Blockunterricht an der Berufsschule"
+   ],
+   "c": 0,
+   "e": "Beim E-Learning werden Lerninhalte digital bereitgestellt und können jederzeit von jedem Ort mit Internetzugang bearbeitet werden. Präsenzseminare, Schulungen und Blockunterricht sind an feste Zeiten und Orte gebunden."
+  },
+  {
+   "q": "Warum ist lebenslanges Lernen gerade im E-Commerce besonders wichtig?",
+   "o": [
+    "Weil eine jährliche Weiterbildung für alle Beschäftigten gesetzlich vorgeschrieben ist",
+    "Weil sich Technik, Tools, Kundenverhalten und Markt besonders schnell wandeln",
+    "Weil die Zulassung zur Abschlussprüfung Weiterbildungsnachweise voraussetzt",
+    "Weil Weiterbildung tariflich zusätzliche Urlaubstage für alle Beschäftigten sichert"
+   ],
+   "c": 1,
+   "e": "Im E-Commerce ändern sich Shopsysteme, Marketingkanäle, rechtliche Vorgaben und das Kundenverhalten in kurzen Abständen. Eine allgemeine gesetzliche Weiterbildungspflicht gibt es dagegen nicht."
+  },
+  {
+   "q": "Welcher der folgenden Punkte ist KEINE typische Folge beruflicher Weiterbildung?",
+   "o": [
+    "Bessere Karrierechancen im Unternehmen",
+    "Höheres Einkommen durch qualifiziertere Aufgaben",
+    "Ein gesetzlicher Anspruch auf Beförderung",
+    "Größere Sicherheit des eigenen Arbeitsplatzes"
+   ],
+   "c": 2,
+   "e": "Weiterbildung verbessert Karrierechancen, Einkommen und Arbeitsplatzsicherheit, begründet aber keinen Rechtsanspruch auf eine Beförderung. Ob eine höhere Position vergeben wird, entscheidet der Arbeitgeber."
+  }
+ ]
+}

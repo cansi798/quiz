@@ -1,0 +1,228 @@
+{
+ "day": 5,
+ "name": "Quiz 9",
+ "topic": "Unternehmensziele und wirtschaftliches Gesamtgefüge",
+ "src": "Kapitel 1.17 und 1.18, Buch S. 128 bis 141",
+ "mc": [
+  {
+   "q": "Die Geschäftsleitung der Exclusiva GmbH legt die Unternehmensziele für das nächste Geschäftsjahr fest. Welches der folgenden Ziele ist ein ökonomisches Unternehmensziel?",
+   "o": [
+    "Sicherung fairer Arbeitsbedingungen im Lager",
+    "Senkung des CO2-Ausstoßes in der Versandlogistik",
+    "Steigerung der Umsatzrentabilität auf 8 Prozent",
+    "Förderung regionaler Sport- und Kulturprojekte"
+   ],
+   "c": 2,
+   "e": "Ökonomische Ziele beziehen sich auf den wirtschaftlichen Erfolg des Unternehmens, etwa Gewinn, Umsatz oder Rentabilität. Faire Arbeitsbedingungen und regionale Förderung sind soziale Ziele, die CO2-Senkung ist ein ökologisches Ziel."
+  },
+  {
+   "q": "Welches der folgenden Ziele der Exclusiva GmbH ist ein soziales Unternehmensziel?",
+   "o": [
+    "Erhöhung des Marktanteils im B2B-Geschäft",
+    "Schonung natürlicher Ressourcen beim Verpacken",
+    "Senkung der Logistikkosten um 5 Prozent",
+    "Sicherung fairer Arbeitsbedingungen im Betrieb"
+   ],
+   "c": 3,
+   "e": "Soziale Ziele betreffen die Mitarbeitenden und die Gesellschaft, etwa faire Arbeitsbedingungen, sichere Arbeitsplätze oder Weiterbildung. Marktanteil und Kostensenkung sind ökonomische Ziele, Ressourcenschonung ist ein ökologisches Ziel."
+  },
+  {
+   "q": "Welches der folgenden Ziele der Exclusiva GmbH ist ein ökologisches Unternehmensziel?",
+   "o": [
+    "Umstellung auf recycelbare Versandverpackungen",
+    "Erhöhung des Marktanteils im Onlinehandel",
+    "Steigerung der Eigenkapitalrentabilität",
+    "Ausbau der betrieblichen Weiterbildungsangebote"
+   ],
+   "c": 0,
+   "e": "Ökologische Ziele zielen auf den Schutz der Umwelt, etwa durch nachhaltige Verpackungen, ressourcenschonende Logistik oder Emissionsreduktion. Weiterbildung ist ein soziales Ziel, Marktanteil und Rentabilität sind ökonomische Ziele."
+  },
+  {
+   "q": "Die Exclusiva GmbH verfolgt die Ziele „Verbesserung des Kundenservice“ und „Erhöhung der Kundenzufriedenheit“. Die Erreichung des einen Ziels fördert die Erreichung des anderen. Wie wird diese Zielbeziehung bezeichnet?",
+   "o": [
+    "Konkurrierende Zielbeziehung",
+    "Komplementäre Zielbeziehung",
+    "Indifferente Zielbeziehung",
+    "Antinomische Zielbeziehung"
+   ],
+   "c": 1,
+   "e": "Bei einer komplementären Zielbeziehung (Zielharmonie) unterstützen sich zwei Ziele gegenseitig. Konkurrierende Ziele behindern sich, indifferente Ziele beeinflussen sich nicht, antinomische Ziele schließen sich vollständig aus."
+  },
+  {
+   "q": "Die Exclusiva GmbH möchte gleichzeitig die Einkaufskosten deutlich senken und die höchste Produktqualität im Sortiment anbieten. In welcher Zielbeziehung stehen diese beiden Ziele in der Regel?",
+   "o": [
+    "Konkurrierende Zielbeziehung",
+    "Komplementäre Zielbeziehung",
+    "Indifferente Zielbeziehung",
+    "Identische Zielbeziehung"
+   ],
+   "c": 0,
+   "e": "Höchste Qualität verursacht meist höhere Kosten, sodass die Erreichung des einen Ziels die Erreichung des anderen behindert. Das ist ein Zielkonflikt, also eine konkurrierende Zielbeziehung; komplementäre Ziele würden sich dagegen gegenseitig fördern."
+  },
+  {
+   "q": "Die Exclusiva GmbH formuliert das Ziel: „Der Umsatz im Onlineshop soll bis zum 31.12. um 10 Prozent gesteigert werden.“ Welche drei Bestandteile machen eine solche Zielformulierung vollständig?",
+   "o": [
+    "Zielinhalt, Zielhierarchie, Zielkonflikt",
+    "Oberziel, Zwischenziel, Unterziel",
+    "Zielart, Zielkontrolle, Zielbeziehung",
+    "Zielinhalt, Zielausmaß, Zeitbezug"
+   ],
+   "c": 3,
+   "e": "Ein vollständig formuliertes Ziel nennt den Inhalt (was: Umsatzsteigerung), das Ausmaß (wie viel: 10 Prozent) und den Zeitbezug (bis wann: 31.12.). Oberziel, Zwischenziel und Unterziel beschreiben dagegen nur die Zielhierarchie."
+  },
+  {
+   "q": "Die Geschäftsleitung der Exclusiva GmbH möchte wissen, wie sich der Gewinn im Verhältnis zum eingesetzten Kapital entwickelt hat. Welche Kennzahl gibt darüber Auskunft?",
+   "o": [
+    "Die Wirtschaftlichkeit als Verhältnis von Ertrag zu Aufwand",
+    "Die Liquidität als Fähigkeit, fällige Zahlungen zu leisten",
+    "Die Rentabilität als Verhältnis von Gewinn zu Kapital oder Umsatz",
+    "Die Produktivität als Verhältnis von Ausbringung zu Einsatz"
+   ],
+   "c": 2,
+   "e": "Die Rentabilität setzt den Gewinn ins Verhältnis zum eingesetzten Kapital oder zum Umsatz und zeigt, wie sich das Kapital verzinst. Die Wirtschaftlichkeit vergleicht dagegen Ertrag und Aufwand, ohne das eingesetzte Kapital zu betrachten."
+  },
+  {
+   "q": "Die Exclusiva GmbH muss Ende des Monats Lieferantenrechnungen, Gehälter und Miete pünktlich bezahlen. Welche Aussage beschreibt den Begriff Liquidität zutreffend?",
+   "o": [
+    "Das Verhältnis des Gewinns zum eingesetzten Kapital",
+    "Die Fähigkeit, fällige Zahlungsverpflichtungen jederzeit zu erfüllen",
+    "Das Verhältnis des Ertrags zum betrieblichen Aufwand",
+    "Das Verhältnis der Ausbringungsmenge zur Einsatzmenge"
+   ],
+   "c": 1,
+   "e": "Liquidität bedeutet Zahlungsfähigkeit: Das Unternehmen kann seine fälligen Verbindlichkeiten fristgerecht begleichen. Ein hoher Gewinn oder eine gute Rentabilität garantieren das nicht, wenn das Geld etwa im Lagerbestand gebunden ist."
+  },
+  {
+   "q": "Die Wirtschaftlichkeit eines Unternehmens ist definiert als das Verhältnis von ...",
+   "o": [
+    "Ertrag zu Aufwand.",
+    "Gewinn zu eingesetztem Kapital.",
+    "Ausbringungsmenge zu Einsatzmenge.",
+    "Umsatz zu Gewinn."
+   ],
+   "c": 0,
+   "e": "Die Wirtschaftlichkeit vergleicht den bewerteten Ertrag mit dem bewerteten Aufwand; ein Wert über 1 bedeutet wirtschaftliches Handeln. Gewinn zu Kapital ist die Rentabilität, Ausbringungsmenge zu Einsatzmenge die Produktivität."
+  },
+  {
+   "q": "Die Exclusiva GmbH möchte nach innen und außen als einheitliches Unternehmen mit klarem Profil wahrgenommen werden. Was versteht man unter der Corporate Identity eines Unternehmens?",
+   "o": [
+    "Die Gesamtheit aller Werbemaßnahmen zur Absatzförderung",
+    "Die Rechtsform und die Eintragung im Handelsregister",
+    "Das visuelle Erscheinungsbild aus Logo, Farben und Schriften",
+    "Das einheitliche Selbstverständnis und Auftreten nach innen und außen"
+   ],
+   "c": 3,
+   "e": "Die Corporate Identity ist die Unternehmenspersönlichkeit, also das einheitliche Selbstverständnis, das sich in Verhalten, Kommunikation und Erscheinungsbild zeigt. Das rein visuelle Erscheinungsbild ist nur ein Teilbereich davon, das Corporate Design."
+  },
+  {
+   "q": "Ein Kunde der Exclusiva GmbH stellt fest, dass er im Winter keine warme Jacke besitzt, und möchte diesen Zustand ändern. Was versteht man in der Wirtschaftslehre unter einem Bedürfnis?",
+   "o": [
+    "Eine konkrete, mit Kaufkraft ausgestattete Kaufabsicht",
+    "Den am Markt tatsächlich wirksam werdenden Bedarf",
+    "Einen empfundenen Mangel mit dem Wunsch, ihn zu beseitigen",
+    "Das Gut, mit dem ein empfundener Mangel beseitigt wird"
+   ],
+   "c": 2,
+   "e": "Ein Bedürfnis ist ein Mangelgefühl, verbunden mit dem Wunsch, diesen Mangel zu beheben. Kommt Kaufkraft hinzu, spricht man von Bedarf; wird dieser am Markt wirksam, von Nachfrage."
+  },
+  {
+   "q": "Ein Bedürfnis trifft auf ausreichende Kaufkraft, sodass der Wunsch tatsächlich erfüllt werden könnte. Wie wird diese Stufe in der Wirtschaftslehre bezeichnet?",
+   "o": [
+    "Nachfrage",
+    "Bedarf",
+    "Angebot",
+    "Konsum"
+   ],
+   "c": 1,
+   "e": "Bedarf ist der Teil der Bedürfnisse, der mit Kaufkraft unterlegt ist. Zur Nachfrage wird der Bedarf erst, wenn er tatsächlich am Markt auftritt, also ein Kaufentschluss vorliegt."
+  },
+  {
+   "q": "Bedürfnisse lassen sich nach ihrer Dringlichkeit einteilen. Welche Bedürfnisse müssen befriedigt werden, um das Überleben eines Menschen zu sichern?",
+   "o": [
+    "Existenzbedürfnisse",
+    "Kulturbedürfnisse",
+    "Luxusbedürfnisse",
+    "Individualbedürfnisse"
+   ],
+   "c": 0,
+   "e": "Existenzbedürfnisse (Grundbedürfnisse) wie Nahrung, Kleidung und Wohnung sind lebensnotwendig. Kulturbedürfnisse wie Bildung oder Reisen und Luxusbedürfnisse wie Schmuck dienen dagegen einem höheren Lebensstandard."
+  },
+  {
+   "q": "Güter werden nach ihrer Verfügbarkeit in freie Güter und Wirtschaftsgüter unterschieden. Welche Aussage kennzeichnet freie Güter?",
+   "o": [
+    "Güter, die vom Staat kostenlos bereitgestellt werden",
+    "Güter, die knapp sind und über den Markt gehandelt werden",
+    "Güter, die praktisch unbegrenzt vorhanden sind und keinen Preis haben",
+    "Güter, die ohne Zölle zwischen Staaten gehandelt werden"
+   ],
+   "c": 2,
+   "e": "Freie Güter wie Luft oder Sonnenlicht sind im Verhältnis zum Bedarf unbegrenzt verfügbar und haben deshalb keinen Preis. Vom Staat bereitgestellte Leistungen sind öffentliche Güter, die über Steuern finanziert werden, und knappe Güter sind Wirtschaftsgüter."
+  },
+  {
+   "q": "Die Exclusiva GmbH verfügt über ein festes Werbebudget von 20.000 Euro und möchte damit so viele Neukunden wie möglich gewinnen. Nach welchem Prinzip des ökonomischen Handelns wird hier vorgegangen?",
+   "o": [
+    "Minimalprinzip",
+    "Maximalprinzip",
+    "Optimalprinzip",
+    "Extremumprinzip"
+   ],
+   "c": 1,
+   "e": "Beim Maximalprinzip ist der Mitteleinsatz vorgegeben und der Erfolg soll möglichst groß werden. Beim Minimalprinzip ist umgekehrt das Ziel vorgegeben und der Mitteleinsatz soll möglichst gering sein."
+  },
+  {
+   "q": "Die Exclusiva GmbH möchte 500 Neukunden gewinnen und dafür so wenig Werbebudget wie möglich einsetzen. Nach welchem Prinzip des ökonomischen Handelns wird hier vorgegangen?",
+   "o": [
+    "Maximalprinzip",
+    "Optimalprinzip",
+    "Rentabilitätsprinzip",
+    "Minimalprinzip"
+   ],
+   "c": 3,
+   "e": "Beim Minimalprinzip ist das Ziel fest vorgegeben und soll mit dem geringstmöglichen Mitteleinsatz erreicht werden. Beim Maximalprinzip wäre dagegen das Budget fest und der Erfolg möglichst groß."
+  },
+  {
+   "q": "Im einfachen Wirtschaftskreislauf werden Güter- und Geldströme zwischen zwei Wirtschaftssubjekten dargestellt. Welche beiden Sektoren sind das?",
+   "o": [
+    "Unternehmen und Staat",
+    "Private Haushalte und Banken",
+    "Private Haushalte und Unternehmen",
+    "Staat und Ausland"
+   ],
+   "c": 2,
+   "e": "Im einfachen Wirtschaftskreislauf stellen die privaten Haushalte den Unternehmen Produktionsfaktoren zur Verfügung und erhalten dafür Einkommen, mit dem sie Güter kaufen. Staat, Banken und Ausland kommen erst im erweiterten Wirtschaftskreislauf hinzu."
+  },
+  {
+   "q": "Die Exclusiva GmbH bietet ihre Produkte im Onlineshop an, und Kunden fragen diese dort nach. Was versteht man in der Wirtschaftslehre unter einem Markt?",
+   "o": [
+    "Das Zusammentreffen von Angebot und Nachfrage",
+    "Die Gesamtheit aller Unternehmen einer Branche",
+    "Den Ort, an dem Waren gelagert und verteilt werden",
+    "Die Gesamtheit aller kaufkräftigen Verbraucher"
+   ],
+   "c": 0,
+   "e": "Ein Markt ist der wirtschaftliche Ort, an dem Angebot und Nachfrage aufeinandertreffen und sich Preise bilden, unabhängig davon, ob dies physisch oder online geschieht. Die Verbraucher allein bilden nur die Nachfrageseite."
+  },
+  {
+   "q": "Ein Produkt der Exclusiva GmbH wird plötzlich stark nachgefragt, das Angebot bleibt jedoch unverändert. Wie wirkt sich das nach dem Marktmechanismus tendenziell auf den Preis aus?",
+   "o": [
+    "Der Preis sinkt, weil die Anbieter mehr absetzen können",
+    "Der Preis steigt, weil das Gut knapper wird",
+    "Der Preis bleibt konstant, weil das Angebot gleich bleibt",
+    "Der Preis fällt auf die Höhe der Herstellungskosten"
+   ],
+   "c": 1,
+   "e": "Steigt die Nachfrage bei gleichbleibendem Angebot, entsteht ein Nachfrageüberhang: Das Gut wird knapper und die Anbieter können höhere Preise durchsetzen. Ein sinkender Preis wäre die Folge eines Angebotsüberhangs."
+  },
+  {
+   "q": "Welche drei Produktionsfaktoren werden in der Volkswirtschaftslehre unterschieden?",
+   "o": [
+    "Arbeit, Betriebsmittel, Werkstoffe",
+    "Arbeit, Kapital, Wissen",
+    "Boden, Kapital, Technologie",
+    "Arbeit, Boden, Kapital"
+   ],
+   "c": 3,
+   "e": "Die volkswirtschaftlichen Produktionsfaktoren sind Arbeit, Boden (Natur) und Kapital. Arbeit, Betriebsmittel und Werkstoffe sind dagegen die betriebswirtschaftlichen Produktionsfaktoren nach Gutenberg."
+  }
+ ]
+}

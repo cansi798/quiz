@@ -1,0 +1,228 @@
+{
+ "day": 2,
+ "name": "Quiz 4",
+ "topic": "Webshop einrichten, Name und Adresse",
+ "src": "Kapitel 1.7 und 1.8, Buch S. 68 bis 91",
+ "mc": [
+  {
+   "q": "Die Exclusiva GmbH plant ihren neuen Webshop. Welche Funktion gehört zwingend zum Kernbereich jedes Webshops, ohne die ein Online-Verkauf nicht möglich ist?",
+   "o": [
+    "Newsletter-Versand mit Kundensegmentierung",
+    "Live-Chat mit dem Kundenservice",
+    "Warenkorb mit Bestellabschluss (Checkout)",
+    "Bewertungsfunktion für Produkte"
+   ],
+   "c": 2,
+   "e": "Ohne Warenkorb und Checkout kann der Kunde keine Bestellung aufgeben, daher ist diese Funktion unverzichtbar. Newsletter, Live-Chat und Bewertungen sind sinnvolle Zusatzfunktionen, aber kein zwingender Kernbestandteil."
+  },
+  {
+   "q": "Die Exclusiva GmbH prüft einen Mietshop (Software as a Service). Welche Aussage kennzeichnet dieses Modell zutreffend?",
+   "o": [
+    "Geringe Startkosten, laufende monatliche Gebühren und schnelle Einrichtung",
+    "Hohe Anfangsinvestition, dafür keine laufenden Kosten mehr",
+    "Einmalige Lizenzgebühr und Betrieb auf einem eigenen Server",
+    "Kostenloser Quellcode, der selbst gehostet und gepflegt wird"
+   ],
+   "c": 0,
+   "e": "Beim Mietshop stellt der Anbieter die fertige Shopsoftware gegen eine laufende Gebühr bereit, sodass der Einstieg schnell und mit geringen Startkosten möglich ist. Kostenloser Quellcode mit eigenem Hosting beschreibt dagegen eine Open-Source-Lösung."
+  },
+  {
+   "q": "Welcher Vorteil ist typisch für eine Open-Source-Shoplösung wie zum Beispiel Magento oder Shopware Community Edition?",
+   "o": [
+    "Der Anbieter übernimmt Updates und Sicherheitspflege",
+    "Rechtssichere Texte sind bereits automatisch enthalten",
+    "Hosting ist im Lieferumfang der Software inbegriffen",
+    "Für die Nutzung der Software fallen keine Lizenzkosten an"
+   ],
+   "c": 3,
+   "e": "Open-Source-Software wird ohne Lizenzgebühren bereitgestellt und kann frei angepasst werden. Updates, Sicherheit und Hosting muss der Betreiber jedoch selbst organisieren, das übernimmt kein Anbieter."
+  },
+  {
+   "q": "Welcher Nachteil ist typisch für den Betrieb eines Open-Source-Shops?",
+   "o": [
+    "Die Anpassungsmöglichkeiten des Systems sind stark eingeschränkt",
+    "Hosting, Updates und Sicherheit muss der Betreiber selbst verantworten",
+    "Für jede Installation fallen hohe Lizenzgebühren an",
+    "Eine kommerzielle Nutzung ist lizenzrechtlich ausgeschlossen"
+   ],
+   "c": 1,
+   "e": "Bei Open Source liegt die gesamte technische Verantwortung für Hosting, Updates und Sicherheit beim Betreiber, was Know-how und Aufwand erfordert. Die Anpassungsmöglichkeiten sind dagegen gerade besonders groß, und Lizenzgebühren fallen nicht an."
+  },
+  {
+   "q": "Die Exclusiva GmbH vergleicht mehrere Shopsysteme. Welches Kriterium gehört fachlich zur Auswahl eines Shopsystems?",
+   "o": [
+    "Anzahl der Mitarbeiter in der Personalabteilung",
+    "Standort der Filialen im stationären Handel",
+    "Skalierbarkeit und vorhandene Schnittstellen",
+    "Höhe der Umsatzsteuer auf die Produkte"
+   ],
+   "c": 2,
+   "e": "Ein Shopsystem muss mit dem Unternehmen wachsen können (Skalierbarkeit) und sich über Schnittstellen an Warenwirtschaft, Zahlungsanbieter und Versand anbinden lassen. Filialstandorte oder Personalstärke haben keinen Einfluss auf die Eignung der Software."
+  },
+  {
+   "q": "Warum ist für die Exclusiva GmbH die Anbindung des Webshops an das Warenwirtschaftssystem wichtig?",
+   "o": [
+    "Bestände und Bestellungen werden automatisch zwischen Shop und Lager abgeglichen",
+    "Die Buchführung wird dadurch vollständig an den Steuerberater ausgelagert",
+    "Die Suchmaschinenplatzierung des Shops verbessert sich automatisch",
+    "Kunden können ihre Bestellungen direkt im Lagerbestand einsehen"
+   ],
+   "c": 0,
+   "e": "Durch die Schnittstelle zur Warenwirtschaft werden Lagerbestände, Preise und Bestellungen automatisch synchronisiert, sodass Überverkäufe und doppelte Datenpflege vermieden werden. Mit Buchführung oder Suchmaschinenplatzierung hat die Anbindung nichts zu tun."
+  },
+  {
+   "q": "Für welche Zielgruppe eignet sich ein Mietshop (SaaS) besonders gut?",
+   "o": [
+    "Großunternehmen mit eigener IT-Abteilung und speziellen Prozessen",
+    "Händler, die ausschließlich im B2B-Bereich tätig sind",
+    "Unternehmen, die den Quellcode vollständig selbst kontrollieren wollen",
+    "Einsteiger mit begrenztem Budget und wenig technischem Know-how"
+   ],
+   "c": 3,
+   "e": "Ein Mietshop ist schnell startklar, benötigt kaum technisches Wissen und verursacht geringe Anfangskosten, was ihn für Einsteiger ideal macht. Unternehmen mit sehr speziellen Prozessen oder dem Wunsch nach voller Kontrolle wählen eher eine Eigenentwicklung oder Open Source."
+  },
+  {
+   "q": "Welches Argument spricht für eine Eigenentwicklung des Webshops?",
+   "o": [
+    "Die geringsten Kosten aller Betriebsmodelle",
+    "Maximale Anpassbarkeit und volle Kontrolle über das System",
+    "Sofortige Verfügbarkeit ohne Entwicklungsaufwand",
+    "Der Wegfall von Wartung und Weiterentwicklung"
+   ],
+   "c": 1,
+   "e": "Eine Eigenentwicklung wird exakt auf die Prozesse des Unternehmens zugeschnitten und bleibt vollständig in eigener Hand. Sie ist jedoch teuer, zeitaufwendig und muss dauerhaft selbst gewartet werden, sofortige Verfügbarkeit bietet dagegen der Mietshop."
+  },
+  {
+   "q": "Was versteht man unter der Domain eines Webshops?",
+   "o": [
+    "Die numerische IP-Adresse des Servers, auf dem der Shop liegt",
+    "Das Übertragungsprotokoll, mit dem der Browser den Shop aufruft",
+    "Der weltweit eindeutige Name, unter dem der Shop im Internet erreichbar ist",
+    "Der Speicherplatz, den der Provider für die Shopdaten bereitstellt"
+   ],
+   "c": 2,
+   "e": "Die Domain ist der eindeutige, für Menschen lesbare Name im Internet, der auf die IP-Adresse des Servers verweist. Die IP-Adresse selbst, das Protokoll und der Speicherplatz (Hosting) sind eigene Begriffe."
+  },
+  {
+   "q": "Wie wird die Endung einer Domain wie zum Beispiel .de oder .com fachlich bezeichnet?",
+   "o": [
+    "Second-Level-Domain",
+    "Top-Level-Domain",
+    "Subdomain",
+    "Root-Domain"
+   ],
+   "c": 1,
+   "e": "Die Endung ganz rechts ist die Top-Level-Domain, entweder länderspezifisch (.de) oder generisch (.com). Die Second-Level-Domain ist der frei wählbare Name links davon, eine Subdomain steht noch weiter links."
+  },
+  {
+   "q": "Die Exclusiva GmbH nutzt die Adresse www.shop.exclusiva.de. Welcher Bestandteil ist bei dieser Adresse das Element „exclusiva“?",
+   "o": [
+    "Top-Level-Domain",
+    "Subdomain",
+    "Protokoll",
+    "Second-Level-Domain"
+   ],
+   "c": 3,
+   "e": "Die Second-Level-Domain ist der frei gewählte Name direkt links von der Top-Level-Domain .de, hier also „exclusiva“. „shop“ und „www“ sind Subdomains (Third-Level-Domains), das Protokoll wäre zum Beispiel https."
+  },
+  {
+   "q": "Welche Organisation ist für die Vergabe und Verwaltung von Domains mit der Endung .de zuständig?",
+   "o": [
+    "DENIC eG",
+    "ICANN",
+    "Bundesnetzagentur",
+    "Deutsches Patent- und Markenamt"
+   ],
+   "c": 0,
+   "e": "Die DENIC eG ist die zentrale Registrierungsstelle für alle .de-Domains. Die ICANN koordiniert weltweit das Domain-Namen-System und die Top-Level-Domains, vergibt aber keine einzelnen .de-Domains."
+  },
+  {
+   "q": "Welche Eigenschaften sollte ein guter Domainname für einen Webshop besitzen?",
+   "o": [
+    "Möglichst viele Schlüsselwörter, auch wenn er dadurch lang wird",
+    "Ein eigener Name für jede Produktkategorie",
+    "Kurz, einprägsam und leicht zu schreiben",
+    "Bindestriche und Ziffern zur besseren Unterscheidbarkeit"
+   ],
+   "c": 2,
+   "e": "Ein Domainname soll sich Kunden leicht merken und fehlerfrei eintippen können, daher sollte er kurz, einprägsam und einfach zu schreiben sein. Lange Keyword-Ketten, Ziffern oder Bindestriche erschweren die Merkbarkeit und führen zu Tippfehlern."
+  },
+  {
+   "q": "Was muss vor der Registrierung einer Wunschdomain zwingend geprüft werden, um rechtliche Konflikte zu vermeiden?",
+   "o": [
+    "Die Eintragung des Unternehmens im Handelsregister",
+    "Bestehende Marken- und Namensrechte Dritter",
+    "Die Gewerbeanmeldung beim zuständigen Ordnungsamt",
+    "Die Anmeldung der Domain beim Finanzamt"
+   ],
+   "c": 1,
+   "e": "Verletzt eine Domain fremde Marken- oder Namensrechte, drohen Abmahnungen, Schadensersatz und der Verlust der Domain. Handelsregister, Gewerbeanmeldung und Finanzamt betreffen die Unternehmensgründung, nicht die Zulässigkeit eines Domainnamens."
+  },
+  {
+   "q": "Was versteht man unter Domain-Grabbing?",
+   "o": [
+    "Das vorsorgliche Sichern des eigenen Markennamens unter mehreren Endungen",
+    "Die Übernahme abgelaufener Domains zur Verbesserung des Suchmaschinenrankings",
+    "Die Weiterleitung mehrerer Domains auf eine Hauptdomain",
+    "Die missbräuchliche Registrierung fremder Namen, um die Domains teuer zu verkaufen"
+   ],
+   "c": 3,
+   "e": "Beim Domain-Grabbing registriert jemand gezielt Domains mit fremden Marken- oder Firmennamen, um sie dem eigentlichen Rechteinhaber teuer anzubieten. Das Sichern des eigenen Markennamens unter mehreren Endungen ist dagegen eine legitime Schutzmaßnahme."
+  },
+  {
+   "q": "Wozu dient ein SSL-/TLS-Zertifikat im Webshop der Exclusiva GmbH?",
+   "o": [
+    "Zur verschlüsselten Datenübertragung zwischen Browser und Server über https",
+    "Zur Bestätigung der Gewerbeanmeldung gegenüber dem Kunden",
+    "Zur Absicherung der Ware gegen Transportschäden beim Versand",
+    "Zur automatischen Archivierung der Rechnungen für die Buchhaltung"
+   ],
+   "c": 0,
+   "e": "Das SSL-/TLS-Zertifikat verschlüsselt die Verbindung (erkennbar an https und dem Schlosssymbol) und bestätigt die Identität des Shops, was besonders bei Kundendaten und Zahlungen wichtig ist. Mit Versand, Gewerbeanmeldung oder Buchhaltung hat es nichts zu tun."
+  },
+  {
+   "q": "Aus welchen Bestandteilen setzt sich eine vollständige URL wie https://www.exclusiva.de/damenmode zusammen?",
+   "o": [
+    "Firmenname, Rechtsform und Sitz des Unternehmens",
+    "IP-Adresse des Kunden und Servername des Shops",
+    "Protokoll, Domain und gegebenenfalls Pfad",
+    "Domainname, E-Mail-Adresse und Impressum"
+   ],
+   "c": 2,
+   "e": "Eine URL besteht aus dem Protokoll (https://), der Domain (www.exclusiva.de) und optional einem Pfad zu einer bestimmten Seite (/damenmode). Die IP-Adresse des Kunden oder Angaben zur Rechtsform gehören nicht zur URL."
+  },
+  {
+   "q": "Was versteht man im Zusammenhang mit einem Webshop unter Hosting?",
+   "o": [
+    "Die Vermittlung von Zahlungen zwischen Kunde und Händler",
+    "Die Bereitstellung von Speicherplatz und Servern für die Website durch einen Provider",
+    "Die Registrierung und Verwaltung des Domainnamens",
+    "Die Einbindung von Werbeanzeigen auf fremden Websites"
+   ],
+   "c": 1,
+   "e": "Hosting bedeutet, dass ein Provider Serverkapazität und Speicherplatz bereitstellt, damit der Shop rund um die Uhr im Internet erreichbar ist. Die Domainregistrierung ist ein eigener Schritt, auch wenn viele Provider beides anbieten."
+  },
+  {
+   "q": "Die Wunschdomain der Exclusiva GmbH ist bereits an ein anderes Unternehmen vergeben. Was ist ein sinnvoller erster Schritt?",
+   "o": [
+    "Alternative Namen oder eine andere Top-Level-Domain prüfen",
+    "Die Domain bei einem anderen Registrar erneut beantragen",
+    "Die gleiche Domain mit einer Subdomain davor registrieren",
+    "Beim Inhaber die Löschung der Domain wegen Namensgleichheit fordern"
+   ],
+   "c": 0,
+   "e": "Eine vergebene Domain kann nicht doppelt registriert werden, daher prüft man zunächst Alternativen wie eine andere Schreibweise oder eine andere Endung (.com, .shop). Ein Anspruch auf Löschung besteht nur bei nachweisbarer Verletzung eigener Marken- oder Namensrechte."
+  },
+  {
+   "q": "Warum sollte die Verwendung von Umlauten im Domainnamen (zum Beispiel „möbel-exclusiva.de“) kritisch geprüft werden?",
+   "o": [
+    "Umlaut-Domains werden von der DENIC grundsätzlich nicht registriert",
+    "Umlaut-Domains verursachen deutlich höhere Registrierungsgebühren",
+    "Umlaut-Domains werden von Suchmaschinen nicht indexiert",
+    "Umlaute können zu Tippfehlern und Kompatibilitätsproblemen führen"
+   ],
+   "c": 3,
+   "e": "Umlaut-Domains (IDN) sind zwar registrierbar, aber auf ausländischen Tastaturen schwer einzugeben und werden in E-Mail-Adressen oder älteren Systemen nicht überall korrekt unterstützt. Deshalb sollte zusätzlich die Schreibweise mit „ae“, „oe“, „ue“ gesichert werden."
+  }
+ ]
+}

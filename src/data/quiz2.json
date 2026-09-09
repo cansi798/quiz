@@ -1,0 +1,228 @@
+{
+ "day": 1,
+ "name": "Quiz 2",
+ "topic": "Handlungskompetenz und soziale Kompetenz",
+ "src": "Kapitel 1.3 und 1.4, Buch S. 26 bis 47",
+ "mc": [
+  {
+   "q": "Was versteht man im Sinne der Ausbildungsordnung unter beruflicher Handlungskompetenz?",
+   "o": [
+    "Das in der Berufsschule vermittelte Fachwissen, das in der Abschlussprüfung abgefragt wird",
+    "Die Summe aller Arbeitstechniken, die ein Auszubildender im Betrieb kennengelernt hat",
+    "Die Fähigkeit, in beruflichen Situationen sachgerecht, durchdacht und verantwortungsvoll zu handeln",
+    "Die Bereitschaft, betriebliche Anweisungen zuverlässig und ohne Rückfragen umzusetzen"
+   ],
+   "c": 2,
+   "e": "Berufliche Handlungskompetenz verbindet Wissen, Können und Wollen: Man handelt in beruflichen Situationen fachlich richtig, überlegt und verantwortungsbewusst. Reines Fachwissen oder das bloße Befolgen von Anweisungen reicht dafür nicht aus."
+  },
+  {
+   "q": "Aus welchen drei Dimensionen setzt sich die berufliche Handlungskompetenz zusammen?",
+   "o": [
+    "Fachkompetenz, Selbstkompetenz und Sozialkompetenz",
+    "Fachkompetenz, Methodenkompetenz und Lernkompetenz",
+    "Sachkompetenz, Führungskompetenz und Teamkompetenz",
+    "Planungskompetenz, Handlungskompetenz und Kontrollkompetenz"
+   ],
+   "c": 0,
+   "e": "Die Handlungskompetenz besteht aus Fachkompetenz, Selbstkompetenz (auch Personalkompetenz oder Humankompetenz genannt) und Sozialkompetenz. Methoden- und Lernkompetenz sind keine eigenständigen Dimensionen, sondern Bestandteile dieser drei."
+  },
+  {
+   "q": "Was sind Schlüsselqualifikationen?",
+   "o": [
+    "Fachliche Spezialkenntnisse, die nur in einem bestimmten Beruf benötigt werden",
+    "Formale Nachweise wie Zeugnisse und Zertifikate, die den Berufszugang eröffnen",
+    "Die Grundfertigkeiten Lesen, Schreiben und Rechnen als Voraussetzung jeder Ausbildung",
+    "Überfachliche Fähigkeiten, die in vielen beruflichen Situationen einsetzbar sind"
+   ],
+   "c": 3,
+   "e": "Schlüsselqualifikationen sind überfachliche Fähigkeiten wie Teamfähigkeit, Kommunikationsfähigkeit oder Selbstorganisation, die berufsübergreifend genutzt werden können. Berufsspezifisches Spezialwissen gehört dagegen zur Fachkompetenz."
+  },
+  {
+   "q": "Zu welcher Kompetenzdimension gehört die Fähigkeit, im Team zusammenzuarbeiten?",
+   "o": [
+    "Fachkompetenz",
+    "Sozialkompetenz",
+    "Selbstkompetenz",
+    "Methodenkompetenz"
+   ],
+   "c": 1,
+   "e": "Teamfähigkeit betrifft den Umgang mit anderen Menschen und gehört daher zur Sozialkompetenz. Selbstkompetenz bezieht sich dagegen auf den Umgang mit der eigenen Person, etwa Eigenverantwortung und Selbstorganisation."
+  },
+  {
+   "q": "Welche Arbeitsweise kennzeichnet das aktive Lesen eines Fachtextes?",
+   "o": [
+    "Wichtige Stellen markieren, Randnotizen anfertigen und den Inhalt zusammenfassen",
+    "Den Text in einem Durchgang vollständig und ohne Unterbrechung durchlesen",
+    "Den Text mehrfach hintereinander lesen, bis der Inhalt auswendig sitzt",
+    "Zunächst nur die Überschriften überfliegen, um einen groben Überblick zu erhalten"
+   ],
+   "c": 0,
+   "e": "Aktives Lesen bedeutet, sich mit dem Text auseinanderzusetzen: markieren, Randnotizen machen, Fragen stellen und zusammenfassen. Bloßes Überfliegen oder mehrfaches Durchlesen ohne Verarbeitung bleibt passives Lesen."
+  },
+  {
+   "q": "Warum ist passives Lesen für das Lernen wenig wirksam?",
+   "o": [
+    "Weil es deutlich mehr Zeit beansprucht als andere Lesetechniken",
+    "Weil dabei die Konzentration schneller nachlässt als beim Zuhören",
+    "Weil das Gedächtnis kaum gefordert wird und deshalb weniger behalten wird",
+    "Weil der Textinhalt nicht mit den Lernzielen des Lehrplans abgeglichen wird"
+   ],
+   "c": 2,
+   "e": "Beim passiven Lesen wird der Inhalt nicht verarbeitet, das Gedächtnis wird kaum angesprochen und der Stoff wird schnell vergessen. Der Zeitaufwand ist nicht das Problem, sondern die fehlende Verarbeitung."
+  },
+  {
+   "q": "Welche Technik eignet sich besonders, um Ideen zu sammeln und übersichtlich zu strukturieren?",
+   "o": [
+    "Karteikarten",
+    "Zeitplanung",
+    "Protokollieren",
+    "Mindmapping"
+   ],
+   "c": 3,
+   "e": "Beim Mindmapping werden Ideen von einem zentralen Begriff aus in Ästen und Unterästen angeordnet, was Zusammenhänge sichtbar macht. Karteikarten dienen dagegen vor allem dem Wiederholen und Einprägen."
+  },
+  {
+   "q": "Was gehört zur Methodenkompetenz?",
+   "o": [
+    "Das Wissen über Produkte, Preise und Abläufe im eigenen Unternehmen",
+    "Die Beherrschung von Lern- und Arbeitstechniken wie Mindmapping oder Zeitplanung",
+    "Die Fähigkeit, Konflikte im Team sachlich anzusprechen und zu lösen",
+    "Die Bereitschaft, Verantwortung für das eigene Handeln zu übernehmen"
+   ],
+   "c": 1,
+   "e": "Methodenkompetenz umfasst Lern- und Arbeitstechniken, mit denen Aufgaben planvoll und selbstständig bearbeitet werden. Produktwissen zählt zur Fachkompetenz, Konfliktlösung zur Sozialkompetenz."
+  },
+  {
+   "q": "Nach dem Kommunikationsmodell von Schulz von Thun hat jede Nachricht ...",
+   "o": [
+    "eine Seite",
+    "zwei Seiten",
+    "drei Seiten",
+    "vier Seiten"
+   ],
+   "c": 3,
+   "e": "Nach Schulz von Thun enthält jede Nachricht vier Seiten: Sachinhalt, Selbstoffenbarung, Beziehung und Appell. Das Modell wird deshalb auch Vier-Ohren-Modell oder Nachrichtenquadrat genannt."
+  },
+  {
+   "q": "Welche Seite einer Nachricht drückt nach Schulz von Thun aus, was der Sender beim Empfänger erreichen möchte?",
+   "o": [
+    "Sachinhalt",
+    "Beziehung",
+    "Appell",
+    "Selbstoffenbarung"
+   ],
+   "c": 2,
+   "e": "Die Appellseite enthält, wozu der Sender den Empfänger bewegen möchte. Die Beziehungsseite zeigt dagegen, wie der Sender zum Empfänger steht, und die Selbstoffenbarung, was der Sender über sich selbst preisgibt."
+  },
+  {
+   "q": "Was kennzeichnet eine Ich-Botschaft?",
+   "o": [
+    "Eine Aussage über eigene Wahrnehmungen, Gefühle und Bedürfnisse",
+    "Eine höflich formulierte Bitte an den Gesprächspartner",
+    "Eine sachliche Bewertung des Verhaltens des Gesprächspartners",
+    "Eine neutrale Beschreibung der Situation ohne persönliche Wertung"
+   ],
+   "c": 0,
+   "e": "Eine Ich-Botschaft beschreibt, was man selbst wahrnimmt und wie man sich dabei fühlt, ohne den anderen anzugreifen. Eine Bewertung des Gegenübers ist dagegen eine Du-Botschaft, auch wenn sie sachlich formuliert ist."
+  },
+  {
+   "q": "Welches Verhalten gehört zum aktiven Zuhören?",
+   "o": [
+    "Dem Gesprächspartner sofort eigene Lösungsvorschläge anbieten",
+    "Nachfragen und das Gehörte in eigenen Worten wiedergeben",
+    "Den Gesprächspartner ausreden lassen und dann das Thema wechseln",
+    "Gegenargumente vorbereiten, während der andere noch spricht"
+   ],
+   "c": 1,
+   "e": "Aktives Zuhören bedeutet, dem Gesprächspartner Aufmerksamkeit zu zeigen, nachzufragen und das Gehörte zu paraphrasieren. Sofortige Lösungsvorschläge oder das Vorbereiten von Gegenargumenten lenken vom Zuhören ab."
+  },
+  {
+   "q": "Wodurch werden Konflikte im Arbeitsalltag in der Regel verschärft?",
+   "o": [
+    "Durch frühes und offenes Ansprechen des Problems",
+    "Durch das Einbeziehen einer neutralen dritten Person",
+    "Durch Kompromissvorschläge beider Seiten",
+    "Durch Du-Vorwürfe und persönliche Angriffe"
+   ],
+   "c": 3,
+   "e": "Du-Vorwürfe und persönliche Angriffe führen dazu, dass sich der andere verteidigt und die Sachebene verlassen wird. Frühes Ansprechen, neutrale Vermittlung und Kompromissbereitschaft wirken dagegen deeskalierend."
+  },
+  {
+   "q": "Was versteht man unter nonverbaler Kommunikation?",
+   "o": [
+    "Mimik, Gestik und Körperhaltung",
+    "Tonfall, Lautstärke und Sprechtempo",
+    "Schriftliche Kommunikation per E-Mail oder Chat",
+    "Die Wortwahl in einem persönlichen Gespräch"
+   ],
+   "c": 0,
+   "e": "Nonverbale Kommunikation ist die Verständigung ohne Worte, also über Mimik, Gestik, Blickkontakt und Körperhaltung. Tonfall und Lautstärke gehören zur paraverbalen Kommunikation, die das gesprochene Wort begleitet."
+  },
+  {
+   "q": "Welche Regel gehört zu einem guten Feedback?",
+   "o": [
+    "Feedback möglichst allgemein halten, damit sich niemand angegriffen fühlt",
+    "Feedback erst nach längerer Zeit geben, wenn der Ärger verflogen ist",
+    "Beobachtungen konkret und beschreibend statt bewertend formulieren",
+    "Feedback in der Gruppe geben, damit alle daraus lernen können"
+   ],
+   "c": 2,
+   "e": "Gutes Feedback ist konkret, beschreibend und bezieht sich auf beobachtbares Verhalten statt auf Bewertungen der Person. Es sollte außerdem zeitnah und unter vier Augen gegeben werden, nicht allgemein oder vor der Gruppe."
+  },
+  {
+   "q": "Was zeichnet erfolgreiche Teamarbeit aus?",
+   "o": [
+    "Alle Mitglieder erledigen dieselben Aufgaben, damit niemand bevorzugt wird",
+    "Gemeinsame Ziele, klare Rollen und offene Kommunikation",
+    "Eine Teamleitung, die alle Entscheidungen trifft und Aufgaben zuweist",
+    "Jedes Mitglied arbeitet eigenständig und stimmt sich nur bei Bedarf ab"
+   ],
+   "c": 1,
+   "e": "Ein Team arbeitet erfolgreich, wenn alle ein gemeinsames Ziel verfolgen, die Rollen klar verteilt sind und offen kommuniziert wird. Entscheidet eine Person allein oder arbeitet jeder für sich, fehlt das Zusammenwirken."
+  },
+  {
+   "q": "Zu welcher Kompetenzdimension zählen Eigenverantwortung und Selbstorganisation?",
+   "o": [
+    "Sozialkompetenz",
+    "Fachkompetenz",
+    "Methodenkompetenz",
+    "Selbstkompetenz"
+   ],
+   "c": 3,
+   "e": "Eigenverantwortung, Selbstorganisation und Zuverlässigkeit betreffen den Umgang mit der eigenen Person und gehören zur Selbstkompetenz. Sozialkompetenz beschreibt dagegen den Umgang mit anderen Menschen."
+  },
+  {
+   "q": "Warum gewinnen Schlüsselqualifikationen in der Arbeitswelt zunehmend an Bedeutung?",
+   "o": [
+    "Fachwissen veraltet schnell, überfachliche Fähigkeiten bleiben dauerhaft einsetzbar",
+    "Sie werden in der IHK-Abschlussprüfung stärker gewichtet als das Fachwissen",
+    "Sie sind in der Ausbildungsordnung als eigenständiges Prüfungsfach vorgeschrieben",
+    "Sie ersetzen mit der Digitalisierung zunehmend die klassische Fachkompetenz"
+   ],
+   "c": 0,
+   "e": "Fachwissen veraltet durch technischen Wandel immer schneller, während überfachliche Fähigkeiten wie Lernbereitschaft und Teamfähigkeit dauerhaft nutzbar sind. Schlüsselqualifikationen ergänzen die Fachkompetenz, ersetzen sie aber nicht."
+  },
+  {
+   "q": "Ein Kollege bei der Exclusiva GmbH sagt: „Immer lässt du die Ablage liegen.“ Welche Formulierung wäre stattdessen eine Ich-Botschaft?",
+   "o": [
+    "„Könntest du bitte in Zukunft die Ablage erledigen, bevor du gehst?“",
+    "„Ich finde, du solltest die Ablage nicht immer liegen lassen.“",
+    "„Mir ist aufgefallen, dass die Ablage liegen geblieben ist. Das belastet mich, weil ich sie dann übernehmen muss.“",
+    "„Ich habe den Eindruck, dass dir die Ablage nicht wichtig ist.“"
+   ],
+   "c": 2,
+   "e": "Eine Ich-Botschaft beschreibt die eigene Wahrnehmung, das eigene Gefühl und den Grund dafür, ohne den anderen zu bewerten. Sätze wie „Ich finde, du solltest ...“ sind verdeckte Du-Botschaften, obwohl sie mit „Ich“ beginnen."
+  },
+  {
+   "q": "Was sollte man bei einem aufkommenden Konflikt im Team zuerst tun?",
+   "o": [
+    "Abwarten, ob sich der Konflikt von selbst löst",
+    "Das Gespräch suchen und den Konflikt früh sachlich ansprechen",
+    "Die Ausbildungsleitung oder Vorgesetzte um Vermittlung bitten",
+    "Den Konflikt in der nächsten Teambesprechung offen zur Sprache bringen"
+   ],
+   "c": 1,
+   "e": "Konflikte sollten früh, direkt und sachlich mit dem Betroffenen angesprochen werden, bevor sie sich verfestigen. Vorgesetzte oder das ganze Team einzubeziehen ist erst sinnvoll, wenn ein direktes Gespräch nicht zum Ziel führt."
+  }
+ ]
+}

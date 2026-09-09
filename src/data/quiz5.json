@@ -1,0 +1,228 @@
+{
+ "day": 3,
+ "name": "Quiz 5",
+ "topic": "Usability und duale Berufsausbildung",
+ "src": "Kapitel 1.9 und 1.10, Buch S. 92 bis 104",
+ "mc": [
+  {
+   "q": "Die Exclusiva GmbH möchte die Usability ihres Onlineshops verbessern. Was ist unter dem Begriff Usability zu verstehen?",
+   "o": [
+    "Die Erreichbarkeit des Shops über Suchmaschinen",
+    "Die technische Verfügbarkeit des Shops rund um die Uhr",
+    "Die Benutzerfreundlichkeit des Shops für die Nutzer",
+    "Die Barrierefreiheit des Shops für Menschen mit Einschränkungen"
+   ],
+   "c": 2,
+   "e": "Usability bezeichnet die Gebrauchstauglichkeit bzw. Benutzerfreundlichkeit eines Systems: Nutzer sollen ihre Ziele einfach und angenehm erreichen. Barrierefreiheit ist nur ein Teilaspekt davon, Verfügbarkeit und Auffindbarkeit sind eigene Kriterien."
+  },
+  {
+   "q": "Nach der Norm DIN EN ISO 9241 wird die Usability eines Systems anhand von drei Kriterien beurteilt. Welche sind das?",
+   "o": [
+    "Effektivität, Effizienz und Zufriedenheit",
+    "Erreichbarkeit, Sicherheit und Aktualität",
+    "Ladezeit, Reichweite und Verfügbarkeit",
+    "Übersichtlichkeit, Farbgestaltung und Textmenge"
+   ],
+   "c": 0,
+   "e": "Gute Usability liegt vor, wenn Nutzer ihr Ziel erreichen (Effektivität), dies mit angemessenem Aufwand tun (Effizienz) und dabei zufrieden sind. Ladezeit oder Übersichtlichkeit sind Einflussfaktoren, aber nicht die drei genormten Kriterien."
+  },
+  {
+   "q": "Die Produktseiten der Exclusiva GmbH laden mehrere Sekunden lang. Welche Auswirkung haben lange Ladezeiten typischerweise?",
+   "o": [
+    "Eine höhere Verweildauer, weil Nutzer länger auf der Seite bleiben",
+    "Eine bessere Platzierung in den Suchergebnissen",
+    "Eine höhere Conversion-Rate durch gründlichere Produktprüfung",
+    "Eine höhere Absprungrate, weil Nutzer die Seite vorzeitig verlassen"
+   ],
+   "c": 3,
+   "e": "Lange Ladezeiten führen dazu, dass viele Nutzer die Seite verlassen, bevor sie geladen ist; die Absprungrate steigt. Die längere Verweildauer ist ein typischer Trugschluss, da die Zeit nicht aktiv genutzt wird, und Suchmaschinen werten langsame Seiten eher ab."
+  },
+  {
+   "q": "Was versteht man unter responsivem Webdesign?",
+   "o": [
+    "Eine Gestaltung, bei der der Shop automatisch auf Kundenanfragen im Chat antwortet",
+    "Eine Darstellung, die sich automatisch an die Bildschirmgröße des Endgeräts anpasst",
+    "Eine separate mobile Version des Shops unter einer eigenen Subdomain",
+    "Eine Gestaltung, bei der Inhalte erst beim Scrollen nachgeladen werden"
+   ],
+   "c": 1,
+   "e": "Responsives Design bedeutet, dass sich Layout und Inhalte flexibel an Smartphone, Tablet oder Desktop anpassen. Eine eigene mobile Subdomain ist gerade keine responsive Lösung, sondern eine getrennte Seitenversion."
+  },
+  {
+   "q": "Im Web-Controlling der Exclusiva GmbH wird die Conversion-Rate ausgewertet. Was gibt diese Kennzahl an?",
+   "o": [
+    "Den Anteil der Besucher, die eine gewünschte Handlung wie einen Kauf ausführen",
+    "Den Anteil der Besucher, die den Shop nach nur einer Seite wieder verlassen",
+    "Den Anteil der Bestellungen, die vom Kunden zurückgeschickt werden",
+    "Das Verhältnis von Seitenaufrufen zur Anzahl der Besucher"
+   ],
+   "c": 0,
+   "e": "Die Conversion-Rate misst, wie viele Besucher zu Käufern bzw. zu einer gewünschten Aktion umgewandelt werden. Der Anteil der Besucher, die sofort wieder gehen, ist dagegen die Absprungrate, und der Anteil zurückgeschickter Bestellungen die Retourenquote."
+  },
+  {
+   "q": "Auf einer Produktseite befindet sich der auffällig gestaltete Button „In den Warenkorb“. Um welches Gestaltungselement handelt es sich?",
+   "o": [
+    "Um ein Vertrauenselement",
+    "Um ein Navigationselement",
+    "Um einen Breadcrumb",
+    "Um einen Call-to-Action"
+   ],
+   "c": 3,
+   "e": "Ein Call-to-Action ist eine klare Handlungsaufforderung, die den Nutzer zum nächsten Schritt wie dem Kauf führt. Navigationselemente und Breadcrumbs dienen der Orientierung im Shop, Vertrauenselemente wie Gütesiegel dem Vertrauensaufbau."
+  },
+  {
+   "q": "Die Exclusiva GmbH stellt viele Kaufabbrüche im Checkout fest. Welche Maßnahme senkt die Abbruchquote am ehesten?",
+   "o": [
+    "Eine verpflichtende Kundenregistrierung, damit Daten für Folgekäufe gespeichert sind",
+    "Zusätzliche Abfragen im Formular, um Kundendaten für das Marketing zu gewinnen",
+    "Wenige Schritte, nur notwendige Pflichtfelder und eine Bestellung als Gast",
+    "Die Beschränkung auf eine einzige Zahlungsart, um den Ablauf zu vereinfachen"
+   ],
+   "c": 2,
+   "e": "Ein schlanker Checkout mit wenigen Schritten, minimalen Pflichtfeldern und Gastbestellung reduziert Hürden und damit Abbrüche. Eine Registrierungspflicht oder nur eine Zahlungsart wirken zwar auf den ersten Blick vereinfachend, sind aber häufige Abbruchgründe."
+  },
+  {
+   "q": "Die Exclusiva GmbH bindet Gütesiegel und Kundenbewertungen in ihren Shop ein. Welche Funktion haben diese Elemente?",
+   "o": [
+    "Sie dienen als Navigationselemente, die den Nutzer durch das Sortiment führen",
+    "Sie dienen als Vertrauenselemente, die Unsicherheit abbauen und die Conversion stärken",
+    "Sie dienen als Suchmaschinenelemente, die das Ranking direkt verbessern",
+    "Sie dienen als rechtliche Pflichtangaben nach dem Telemediengesetz"
+   ],
+   "c": 1,
+   "e": "Gütesiegel und Bewertungen schaffen Vertrauen bei Neukunden, die den Shop noch nicht kennen, und erhöhen so die Kaufwahrscheinlichkeit. Rechtlich vorgeschrieben sind sie nicht, anders als etwa Impressum und Datenschutzerklärung."
+  },
+  {
+   "q": "Vor dem Relaunch lässt die Exclusiva GmbH Testpersonen typische Aufgaben im neuen Shop lösen. Was deckt ein solcher Usability-Test auf?",
+   "o": [
+    "Sicherheitslücken in der Shopsoftware",
+    "Fehler bei der Berechnung von Preisen und Steuern",
+    "Abweichungen zwischen Lagerbestand und Shopanzeige",
+    "Schwachstellen in Bedienung und Nutzerführung"
+   ],
+   "c": 3,
+   "e": "Beim Usability-Test beobachtet man, wo Nutzer stocken, Fehler machen oder abbrechen, und erkennt so Probleme in Bedienung und Nutzerführung. Sicherheitslücken oder Rechenfehler werden dagegen durch technische Tests bzw. Penetrationstests gefunden."
+  },
+  {
+   "q": "Warum gilt die mobile Optimierung eines Onlineshops heute als unverzichtbar?",
+   "o": [
+    "Weil ein Großteil der Zugriffe inzwischen über Smartphones erfolgt",
+    "Weil Shops ohne mobile Version gesetzlich nicht mehr betrieben werden dürfen",
+    "Weil Desktop-Nutzer in der Regel keine Bestellungen mehr aufgeben",
+    "Weil Zahlungsdienstleister nur noch mobile Endgeräte unterstützen"
+   ],
+   "c": 0,
+   "e": "Der mobile Anteil am Traffic liegt in vielen Shops bei über der Hälfte, und Suchmaschinen bewerten Seiten nach ihrer mobilen Darstellung. Eine gesetzliche Pflicht besteht nicht, und auch Desktop-Bestellungen bleiben relevant."
+  },
+  {
+   "q": "Die Ausbildung zum Kaufmann bzw. zur Kauffrau im E-Commerce ist eine duale Berufsausbildung. Was bedeutet in diesem Zusammenhang „dual“?",
+   "o": [
+    "Die Ausbildung endet mit zwei getrennten Abschlussprüfungen",
+    "Die Ausbildung wird von zwei Ausbildungsbetrieben gemeinsam getragen",
+    "Die Ausbildung findet an zwei Lernorten statt, im Betrieb und in der Berufsschule",
+    "Die Ausbildung wird durch zwei Verträge mit Betrieb und Kammer geregelt"
+   ],
+   "c": 2,
+   "e": "Dual bedeutet, dass die Ausbildung an zwei Lernorten stattfindet: Der Betrieb vermittelt die Praxis, die Berufsschule die Theorie. Die gestreckte Abschlussprüfung in zwei Teilen hat nichts mit dem Begriff dual zu tun."
+  },
+  {
+   "q": "Welches Gesetz regelt in Deutschland die betriebliche Berufsausbildung?",
+   "o": [
+    "Das Handelsgesetzbuch (HGB)",
+    "Das Berufsbildungsgesetz (BBiG)",
+    "Das Jugendarbeitsschutzgesetz (JArbSchG)",
+    "Das Bürgerliche Gesetzbuch (BGB)"
+   ],
+   "c": 1,
+   "e": "Das Berufsbildungsgesetz ist die zentrale Rechtsgrundlage der betrieblichen Ausbildung, etwa für Vertrag, Probezeit, Vergütung und Prüfungen. Das Jugendarbeitsschutzgesetz schützt nur minderjährige Auszubildende, das HGB regelt das Handelsrecht."
+  },
+  {
+   "q": "Für jeden anerkannten Ausbildungsberuf gibt es eine Ausbildungsordnung. Was legt diese fest?",
+   "o": [
+    "Die Lernfelder und Unterrichtsinhalte der Berufsschule",
+    "Die Höhe der Ausbildungsvergütung und den Urlaubsanspruch",
+    "Die Pflichten der Auszubildenden gegenüber dem Betrieb",
+    "Ausbildungsberufsbild, Ausbildungsrahmenplan und Prüfungsanforderungen für den Betrieb"
+   ],
+   "c": 3,
+   "e": "Die Ausbildungsordnung regelt die betriebliche Seite: Bezeichnung und Dauer des Berufs, das Berufsbild, den Rahmenplan und die Prüfungsanforderungen. Die schulischen Inhalte stehen dagegen im Rahmenlehrplan, Vergütung und Urlaub im Ausbildungsvertrag bzw. Tarifvertrag."
+  },
+  {
+   "q": "Worauf basiert der Unterricht in der Berufsschule inhaltlich?",
+   "o": [
+    "Auf der Ausbildungsordnung des Bundes",
+    "Auf dem betrieblichen Ausbildungsplan",
+    "Auf dem Rahmenlehrplan der Kultusministerkonferenz",
+    "Auf der Prüfungsordnung der zuständigen IHK"
+   ],
+   "c": 2,
+   "e": "Der Rahmenlehrplan der Kultusministerkonferenz legt die Lernfelder und Inhalte des Berufsschulunterrichts fest und ist mit der Ausbildungsordnung abgestimmt. Die Ausbildungsordnung selbst gilt für die betriebliche Ausbildung."
+  },
+  {
+   "q": "Wie lang darf die Probezeit in einem Berufsausbildungsverhältnis nach dem BBiG sein?",
+   "o": [
+    "Mindestens einen und höchstens vier Monate",
+    "Mindestens zwei und höchstens sechs Monate",
+    "Höchstens sechs Monate, wie bei einem Arbeitsvertrag",
+    "Mindestens drei und höchstens zwölf Monate"
+   ],
+   "c": 0,
+   "e": "Nach § 20 BBiG beträgt die Probezeit mindestens einen und höchstens vier Monate. Die sechs Monate sind die typische Probezeit in normalen Arbeitsverhältnissen und werden daher oft verwechselt."
+  },
+  {
+   "q": "Wie lang ist die reguläre Ausbildungsdauer zum Kaufmann bzw. zur Kauffrau im E-Commerce?",
+   "o": [
+    "Zwei Jahre",
+    "Drei Jahre",
+    "Zweieinhalb Jahre",
+    "Dreieinhalb Jahre"
+   ],
+   "c": 1,
+   "e": "Die Ausbildung dauert regulär drei Jahre und kann bei guten Leistungen oder entsprechender Vorbildung verkürzt werden. Zweijährige Ausbildungen sind eher Verkäuferberufe, dreieinhalb Jahre gelten für viele gewerblich-technische Berufe."
+  },
+  {
+   "q": "Welche Aufgaben übernimmt die IHK als zuständige Stelle in der dualen Berufsausbildung?",
+   "o": [
+    "Sie zahlt die Ausbildungsvergütung und stellt die Arbeitsmittel",
+    "Sie erstellt die Stundenpläne und Lehrpläne der Berufsschule",
+    "Sie schließt den Ausbildungsvertrag mit den Auszubildenden ab",
+    "Sie trägt die Verträge ein, überwacht die Ausbildung und nimmt die Prüfungen ab"
+   ],
+   "c": 3,
+   "e": "Die IHK führt das Verzeichnis der Ausbildungsverhältnisse, berät und überwacht die Betriebe und organisiert die Zwischen- und Abschlussprüfungen. Vertragspartner und Zahler der Vergütung ist dagegen der Ausbildungsbetrieb."
+  },
+  {
+   "q": "Wann und in welcher Form muss der Berufsausbildungsvertrag nach dem BBiG geschlossen werden?",
+   "o": [
+    "Spätestens am Ende der Probezeit, formlos",
+    "Spätestens vor der Zwischenprüfung, in Textform",
+    "Vor Beginn der Ausbildung, mit schriftlicher Niederlegung des wesentlichen Inhalts",
+    "Innerhalb des ersten Monats der Ausbildung, mündlich ausreichend"
+   ],
+   "c": 2,
+   "e": "Nach § 10 und § 11 BBiG ist der Vertrag vor Beginn der Ausbildung zu schließen und sein wesentlicher Inhalt schriftlich niederzulegen. Eine mündliche Vereinbarung wäre zwar wirksam, die schriftliche Niederlegung ist aber gesetzliche Pflicht des Ausbildenden."
+  },
+  {
+   "q": "Auszubildende der Exclusiva GmbH müssen einen Ausbildungsnachweis führen. Worum handelt es sich dabei?",
+   "o": [
+    "Um das regelmäßig geführte Berichtsheft über Ausbildungsinhalte und Tätigkeiten",
+    "Um das Zeugnis der Berufsschule am Ende jedes Schuljahres",
+    "Um die Bescheinigung der IHK über die Eintragung des Vertrags",
+    "Um das betriebliche Zeugnis nach Abschluss der Ausbildung"
+   ],
+   "c": 0,
+   "e": "Der Ausbildungsnachweis ist das schriftlich oder elektronisch geführte Berichtsheft, in dem Tätigkeiten und Lerninhalte dokumentiert werden; er ist Zulassungsvoraussetzung zur Abschlussprüfung. Zeugnisse und die Eintragungsbescheinigung sind davon getrennte Dokumente."
+  },
+  {
+   "q": "Welche Angaben gehören nach § 11 BBiG zwingend in den Berufsausbildungsvertrag?",
+   "o": [
+    "Schulabschluss, Notenspiegel und bisherige Praktika der Auszubildenden",
+    "Beginn und Dauer der Ausbildung, Vergütung, Probezeit und Urlaub",
+    "Name der Berufsschule, Klassenlehrkraft und Stundenplan",
+    "Zuständige IHK, Prüfungstermine und Prüfungsausschuss"
+   ],
+   "c": 1,
+   "e": "Der Vertrag muss unter anderem Ziel, Beginn und Dauer der Ausbildung, Ausbildungszeit, Probezeit, Vergütung, Urlaub und Kündigungsvoraussetzungen enthalten. Angaben zur Berufsschule oder zu Prüfungsterminen sind keine Pflichtinhalte des Vertrags."
+  }
+ ]
+}

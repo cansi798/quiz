@@ -1,0 +1,17 @@
+{
+  "name": "Lernfeld 1 Trainer",
+  "short_name": "LF1 Trainer",
+  "description": "200 Multiple-Choice-Fragen und Prüfungssimulation für Lernfeld 1, Kaufmann/Kauffrau im E-Commerce.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EEF2F7",
+  "theme_color": "#0E6E8C",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

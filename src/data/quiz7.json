@@ -1,0 +1,228 @@
+{
+ "day": 4,
+ "name": "Quiz 7",
+ "topic": "Tarifverträge und Mitbestimmung",
+ "src": "Kapitel 1.13 und 1.14, Buch S. 111 bis 118",
+ "mc": [
+  {
+   "q": "Die Exclusiva GmbH ist Mitglied im Handelsverband. Zwischen welchen Parteien wird ein Tarifvertrag nach dem Tarifvertragsgesetz (TVG) abgeschlossen?",
+   "o": [
+    "Zwischen dem Betriebsrat und der Geschäftsleitung des jeweiligen Betriebs",
+    "Zwischen Gewerkschaften und Arbeitgeberverbänden oder einzelnen Arbeitgebern",
+    "Zwischen dem Bundesarbeitsministerium und den zuständigen Gewerkschaften",
+    "Zwischen der Industrie- und Handelskammer und den Arbeitgeberverbänden"
+   ],
+   "c": 1,
+   "e": "Tariffähig sind nach § 2 TVG Gewerkschaften, Arbeitgeberverbände und einzelne Arbeitgeber (Firmentarifvertrag). Betriebsrat und Arbeitgeber schließen dagegen Betriebsvereinbarungen, keine Tarifverträge."
+  },
+  {
+   "q": "Was versteht man unter Tarifautonomie?",
+   "o": [
+    "Der Staat legt Mindestlöhne und Arbeitszeiten für alle Branchen verbindlich fest",
+    "Jeder Arbeitnehmer handelt seine Arbeitsbedingungen eigenständig mit dem Arbeitgeber aus",
+    "Ein abgeschlossener Tarifvertrag gilt automatisch für alle Beschäftigten einer Branche",
+    "Die Tarifpartner regeln Arbeits- und Entgeltbedingungen eigenständig ohne staatlichen Eingriff"
+   ],
+   "c": 3,
+   "e": "Tarifautonomie ist durch Art. 9 Abs. 3 GG geschützt: Gewerkschaften und Arbeitgeberseite regeln die Arbeitsbedingungen selbstständig, der Staat greift nicht in die Verhandlungen ein. Die automatische Geltung für alle Beschäftigten wäre erst Folge einer Allgemeinverbindlicherklärung."
+  },
+  {
+   "q": "Welchen Regelungsgegenstand hat ein Lohn- bzw. Gehaltstarifvertrag?",
+   "o": [
+    "Die Höhe der Entgelte in den einzelnen Tarifgruppen",
+    "Die Dauer des jährlichen Erholungsurlaubs",
+    "Die Kündigungsfristen für Arbeitnehmer und Arbeitgeber",
+    "Die Merkmale für die Eingruppierung in Tarifgruppen"
+   ],
+   "c": 0,
+   "e": "Der Lohn- bzw. Gehaltstarifvertrag legt die konkrete Höhe der Entgelte fest und hat meist eine kurze Laufzeit. Eingruppierungsmerkmale, Urlaub und Kündigungsfristen stehen im Rahmen- bzw. Manteltarifvertrag."
+  },
+  {
+   "q": "Was wird typischerweise in einem Manteltarifvertrag geregelt?",
+   "o": [
+    "Die Höhe der monatlichen Entgelte je Tarifgruppe",
+    "Die Höhe einmaliger Sonderzahlungen wie Weihnachtsgeld",
+    "Allgemeine Arbeitsbedingungen wie Arbeitszeit, Urlaub und Kündigungsfristen",
+    "Die Zuordnung der Tätigkeiten zu den einzelnen Tarifgruppen"
+   ],
+   "c": 2,
+   "e": "Der Manteltarifvertrag regelt die allgemeinen Arbeitsbedingungen (Arbeitszeit, Urlaub, Kündigungsfristen, Zuschläge) und läuft meist mehrere Jahre. Die Entgelthöhe ist Gegenstand des Lohn- bzw. Gehaltstarifvertrags."
+  },
+  {
+   "q": "Was bedeutet die Friedenspflicht im Tarifrecht?",
+   "o": [
+    "Arbeitskämpfe sind in Deutschland grundsätzlich und dauerhaft untersagt",
+    "Während der Laufzeit eines Tarifvertrags sind Arbeitskämpfe über dessen Inhalte unzulässig",
+    "Arbeitgeber dürfen als Reaktion auf einen Streik keine Aussperrung durchführen",
+    "Tarifverhandlungen dürfen erst nach Ablauf einer Schlichtung aufgenommen werden"
+   ],
+   "c": 1,
+   "e": "Die Friedenspflicht verbietet Streik und Aussperrung über die im laufenden Tarifvertrag geregelten Themen bis zu dessen Ablauf. Nach Ende der Laufzeit und gescheiterten Verhandlungen sind Arbeitskämpfe wieder zulässig."
+  },
+  {
+   "q": "Was besagt das Günstigkeitsprinzip im Verhältnis von Tarifvertrag und Arbeitsvertrag?",
+   "o": [
+    "Vom Tarifvertrag darf im Arbeitsvertrag nur zugunsten des Arbeitnehmers abgewichen werden",
+    "Der Arbeitgeber darf die für ihn wirtschaftlich günstigere Regelung anwenden",
+    "Bei mehreren Tarifverträgen gilt stets der zuletzt abgeschlossene Vertrag",
+    "Der Arbeitsvertrag hat als individuelle Vereinbarung immer Vorrang vor dem Tarifvertrag"
+   ],
+   "c": 0,
+   "e": "Nach § 4 Abs. 3 TVG sind abweichende Vereinbarungen nur zulässig, wenn sie für den Arbeitnehmer günstiger sind, z. B. ein höheres Gehalt als im Tarif. Abweichungen zulasten des Arbeitnehmers sind unwirksam."
+  },
+  {
+   "q": "Für wen gilt ein Tarifvertrag unmittelbar und zwingend?",
+   "o": [
+    "Für alle Beschäftigten der Branche im gesamten Bundesgebiet",
+    "Für alle Arbeitnehmer eines Betriebs, sobald dort ein Betriebsrat besteht",
+    "Für alle Auszubildenden und Arbeitnehmer unter 25 Jahren",
+    "Für die Mitglieder der tarifschließenden Gewerkschaft und des Arbeitgeberverbands"
+   ],
+   "c": 3,
+   "e": "Nach § 3 TVG sind nur die Tarifgebundenen erfasst: Gewerkschaftsmitglieder und Mitglieder des Arbeitgeberverbands bzw. der Arbeitgeber eines Firmentarifvertrags. Für die gesamte Branche gilt ein Tarifvertrag erst nach einer Allgemeinverbindlicherklärung."
+  },
+  {
+   "q": "Welche Wirkung hat die Allgemeinverbindlicherklärung eines Tarifvertrags?",
+   "o": [
+    "Der Tarifvertrag verliert seine Gültigkeit und muss neu verhandelt werden",
+    "Der Tarifvertrag gilt nur noch für die Mitglieder der Gewerkschaft",
+    "Der Tarifvertrag gilt für die gesamte Branche, auch für nicht organisierte Arbeitgeber und Arbeitnehmer",
+    "Der Tarifvertrag wird um eine gesetzliche Friedenspflicht von zwei Jahren verlängert"
+   ],
+   "c": 2,
+   "e": "Nach § 5 TVG kann das Bundesarbeitsministerium einen Tarifvertrag für allgemeinverbindlich erklären; er gilt dann auch für Arbeitgeber und Arbeitnehmer, die nicht Mitglied der Tarifparteien sind."
+  },
+  {
+   "q": "Was ist eine Urabstimmung im Zusammenhang mit einem Arbeitskampf?",
+   "o": [
+    "Die geheime Wahl der Betriebsratsmitglieder durch die Belegschaft",
+    "Die Abstimmung der Gewerkschaftsmitglieder darüber, ob ein Streik durchgeführt wird",
+    "Die Abstimmung der Tarifkommission über die Annahme eines Verhandlungsergebnisses",
+    "Die Befragung der gesamten Belegschaft durch den Arbeitgeber vor einer Aussperrung"
+   ],
+   "c": 1,
+   "e": "Vor einem Streik lässt die Gewerkschaft ihre Mitglieder in einer Urabstimmung entscheiden; üblich ist eine Zustimmung von mindestens 75 Prozent. Die Betriebsratswahl hat mit dem Arbeitskampf nichts zu tun."
+  },
+  {
+   "q": "Was versteht man unter einer Aussperrung?",
+   "o": [
+    "Das Kampfmittel der Arbeitgeber, bei dem Arbeitnehmer vorübergehend von Arbeit und Lohn ausgeschlossen werden",
+    "Die kollektive Arbeitsniederlegung der Arbeitnehmer zur Durchsetzung von Tarifforderungen",
+    "Die fristlose Kündigung einzelner Arbeitnehmer wegen der Teilnahme an einem Streik",
+    "Die vorübergehende Betriebsschließung wegen Auftragsmangels mit Kurzarbeitergeld"
+   ],
+   "c": 0,
+   "e": "Die Aussperrung ist das Gegenstück zum Streik: Der Arbeitgeber schließt Arbeitnehmer vorübergehend vom Betrieb aus und zahlt keinen Lohn. Die Arbeitsverhältnisse bleiben dabei bestehen, es handelt sich nicht um Kündigungen."
+  },
+  {
+   "q": "Welches Gesetz regelt die betriebliche Mitbestimmung durch den Betriebsrat?",
+   "o": [
+    "Das Berufsbildungsgesetz (BBiG)",
+    "Das Mitbestimmungsgesetz (MitbestG)",
+    "Das Tarifvertragsgesetz (TVG)",
+    "Das Betriebsverfassungsgesetz (BetrVG)"
+   ],
+   "c": 3,
+   "e": "Das BetrVG regelt Wahl, Amtszeit und Beteiligungsrechte des Betriebsrats. Das MitbestG betrifft dagegen die Unternehmensmitbestimmung im Aufsichtsrat großer Kapitalgesellschaften mit mehr als 2.000 Beschäftigten."
+  },
+  {
+   "q": "Ab wie vielen ständigen wahlberechtigten Arbeitnehmern kann in einem Betrieb ein Betriebsrat gewählt werden?",
+   "o": [
+    "Ab 3 wahlberechtigten Arbeitnehmern",
+    "Ab 10 wahlberechtigten Arbeitnehmern",
+    "Ab 5 wahlberechtigten Arbeitnehmern, von denen 3 wählbar sind",
+    "Ab 20 wahlberechtigten Arbeitnehmern, von denen 3 wählbar sind"
+   ],
+   "c": 2,
+   "e": "Nach § 1 BetrVG kann ein Betriebsrat in Betrieben mit in der Regel mindestens fünf ständigen wahlberechtigten Arbeitnehmern gewählt werden, von denen drei wählbar sind. Die Zahl 20 ist die Schwelle für die Mitwirkungsrechte bei Betriebsänderungen und personellen Einzelmaßnahmen."
+  },
+  {
+   "q": "Wie lange dauert die regelmäßige Amtszeit eines Betriebsrats nach dem BetrVG?",
+   "o": [
+    "4 Jahre",
+    "2 Jahre",
+    "3 Jahre",
+    "5 Jahre"
+   ],
+   "c": 0,
+   "e": "Nach § 21 BetrVG beträgt die regelmäßige Amtszeit des Betriebsrats vier Jahre; die Wahlen finden bundesweit einheitlich zwischen dem 1. März und 31. Mai statt. Zwei Jahre ist die Amtszeit der Jugend- und Auszubildendenvertretung."
+  },
+  {
+   "q": "Ab welchem Alter sind Arbeitnehmer bei der Betriebsratswahl wahlberechtigt?",
+   "o": [
+    "Ab Vollendung des 18. Lebensjahres",
+    "Ab Vollendung des 16. Lebensjahres",
+    "Ab Vollendung des 15. Lebensjahres",
+    "Ab Vollendung des 21. Lebensjahres"
+   ],
+   "c": 1,
+   "e": "Seit der Reform des BetrVG 2021 sind Arbeitnehmer ab Vollendung des 16. Lebensjahres wahlberechtigt (§ 7 BetrVG). Wählbar ist man dagegen erst ab 18 Jahren und sechs Monaten Betriebszugehörigkeit."
+  },
+  {
+   "q": "Die Exclusiva GmbH kündigt einem Mitarbeiter, ohne den Betriebsrat vorher anzuhören. Welche Rechtsfolge hat das?",
+   "o": [
+    "Die Kündigung ist wirksam, der Betriebsrat kann lediglich Bedenken nachreichen",
+    "Die Kündigung wird automatisch in eine Abmahnung umgedeutet",
+    "Die Kündigung wird erst nach einer Wochenfrist zur Nachholung der Anhörung wirksam",
+    "Die Kündigung ist unwirksam"
+   ],
+   "c": 3,
+   "e": "Nach § 102 BetrVG ist der Betriebsrat vor jeder Kündigung anzuhören; eine ohne Anhörung ausgesprochene Kündigung ist unwirksam. Die Anhörung kann nicht nachgeholt werden, sondern die Kündigung müsste neu erklärt werden."
+  },
+  {
+   "q": "In welcher der folgenden Angelegenheiten hat der Betriebsrat ein echtes Mitbestimmungsrecht nach § 87 BetrVG?",
+   "o": [
+    "Bei der Festlegung der Verkaufspreise im Onlineshop",
+    "Bei der Auswahl der Lieferanten für das Sortiment",
+    "Bei Beginn und Ende der täglichen Arbeitszeit und der Pausen",
+    "Bei der Einstellung einzelner Mitarbeiter und deren Eingruppierung"
+   ],
+   "c": 2,
+   "e": "Die Lage der täglichen Arbeitszeit und der Pausen ist eine soziale Angelegenheit nach § 87 BetrVG, in der der Betriebsrat gleichberechtigt mitbestimmt. Bei Einstellungen hat er nur ein Zustimmungsverweigerungsrecht (§ 99 BetrVG), wirtschaftliche Entscheidungen wie Preise oder Lieferanten trifft der Arbeitgeber allein."
+  },
+  {
+   "q": "Welche Beschäftigten vertritt die Jugend- und Auszubildendenvertretung (JAV)?",
+   "o": [
+    "Arbeitnehmer unter 18 Jahren sowie Auszubildende unter 25 Jahren",
+    "Alle Arbeitnehmer unter 25 Jahren unabhängig vom Ausbildungsstatus",
+    "Ausschließlich Auszubildende, unabhängig von deren Alter",
+    "Arbeitnehmer unter 21 Jahren sowie Auszubildende unter 27 Jahren"
+   ],
+   "c": 0,
+   "e": "Nach § 60 BetrVG vertritt die JAV Arbeitnehmer, die das 18. Lebensjahr noch nicht vollendet haben, sowie Auszubildende, die das 25. Lebensjahr noch nicht vollendet haben. Ein 22-jähriger Mitarbeiter ohne Ausbildungsverhältnis fällt also nicht darunter."
+  },
+  {
+   "q": "Was ist eine Betriebsvereinbarung?",
+   "o": [
+    "Eine Vereinbarung zwischen Gewerkschaft und Arbeitgeber über Arbeitsbedingungen im Betrieb",
+    "Eine schriftliche Regelung im Arbeitsvertrag über die betrieblichen Pflichten des Arbeitnehmers",
+    "Eine mündliche Absprache zwischen Vorgesetzten und Mitarbeitern zu Arbeitszeiten",
+    "Eine schriftliche Vereinbarung zwischen Arbeitgeber und Betriebsrat mit Wirkung für die Belegschaft"
+   ],
+   "c": 3,
+   "e": "Betriebsvereinbarungen werden nach § 77 BetrVG zwischen Arbeitgeber und Betriebsrat schriftlich abgeschlossen und gelten unmittelbar für alle Arbeitnehmer des Betriebs. Vereinbarungen mit der Gewerkschaft sind dagegen Tarifverträge."
+  },
+  {
+   "q": "Welche Reihenfolge gibt die Beteiligungsrechte des Betriebsrats von der schwächsten zur stärksten Stufe korrekt wieder?",
+   "o": [
+    "Anhörung, Information, Mitbestimmung, Beratung",
+    "Beratung, Information, Anhörung, Mitbestimmung",
+    "Information, Anhörung, Beratung, Mitbestimmung",
+    "Information, Mitbestimmung, Anhörung, Beratung"
+   ],
+   "c": 2,
+   "e": "Die Beteiligungsrechte steigern sich von der reinen Information über das Anhörungsrecht und das Beratungsrecht bis zur echten Mitbestimmung, bei der der Arbeitgeber ohne Zustimmung des Betriebsrats nicht handeln darf."
+  },
+  {
+   "q": "Unter welcher Voraussetzung wird in einem Betrieb eine Jugend- und Auszubildendenvertretung (JAV) gewählt?",
+   "o": [
+    "Wenn der Betrieb in der Regel mindestens 20 Auszubildende beschäftigt",
+    "Wenn ein Betriebsrat besteht und in der Regel mindestens 5 Arbeitnehmer unter 18 Jahren oder Auszubildende unter 25 Jahren beschäftigt sind",
+    "Wenn der Arbeitgeber der Wahl zustimmt und der Betrieb mindestens 10 Arbeitnehmer beschäftigt",
+    "Wenn in der Regel mindestens 3 Auszubildende beschäftigt sind, auch ohne bestehenden Betriebsrat"
+   ],
+   "c": 1,
+   "e": "Nach § 60 BetrVG wird eine JAV in Betrieben mit in der Regel mindestens fünf Arbeitnehmern unter 18 Jahren oder Auszubildenden unter 25 Jahren gewählt; Voraussetzung ist zudem ein bestehender Betriebsrat. Eine Zustimmung des Arbeitgebers ist nicht erforderlich."
+  }
+ ]
+}

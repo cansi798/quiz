@@ -1,0 +1,228 @@
+{
+ "day": 1,
+ "name": "Quiz 1",
+ "topic": "Modellunternehmen und Orientierung im Unternehmen",
+ "src": "Kapitel 1.1 und 1.2, Buch S. 9 bis 25",
+ "mc": [
+  {
+   "q": "Welche Rechtsform hat das Modellunternehmen Exclusiva?",
+   "o": [
+    "Offene Handelsgesellschaft (OHG)",
+    "Gesellschaft mit beschränkter Haftung (GmbH)",
+    "Aktiengesellschaft (AG)",
+    "Kommanditgesellschaft (KG)"
+   ],
+   "c": 1,
+   "e": "Das Modellunternehmen firmiert als Exclusiva GmbH und ist damit eine Kapitalgesellschaft. OHG und KG sind Personengesellschaften, bei denen mindestens ein Gesellschafter unbeschränkt haftet."
+  },
+  {
+   "q": "Womit haftet eine GmbH gegenüber ihren Gläubigern?",
+   "o": [
+    "Mit dem Privatvermögen aller Gesellschafter",
+    "Mit dem Privatvermögen der Geschäftsführung",
+    "Ausschließlich mit dem Gesellschaftsvermögen",
+    "Mit dem Privatvermögen des Mehrheitsgesellschafters"
+   ],
+   "c": 2,
+   "e": "Bei der GmbH ist die Haftung auf das Gesellschaftsvermögen beschränkt; das Privatvermögen der Gesellschafter bleibt geschützt. Die Geschäftsführung haftet nur in Ausnahmefällen, etwa bei Pflichtverletzungen."
+  },
+  {
+   "q": "In welcher Abteilung des Handelsregisters wird eine GmbH eingetragen?",
+   "o": [
+    "In Abteilung A, wie Einzelkaufleute",
+    "In Abteilung B, wie Aktiengesellschaften",
+    "In Abteilung A, wie Personengesellschaften",
+    "In Abteilung B, wie Kommanditgesellschaften"
+   ],
+   "c": 1,
+   "e": "Kapitalgesellschaften wie GmbH und AG stehen in Abteilung B des Handelsregisters. Abteilung A ist für Einzelkaufleute und Personengesellschaften wie OHG und KG vorgesehen."
+  },
+  {
+   "q": "Was beschreibt die Betriebsform eines Handelsunternehmens?",
+   "o": [
+    "Die rechtliche Organisation, zum Beispiel als GmbH oder AG",
+    "Die Gliederung des Unternehmens in Abteilungen und Stellen",
+    "Die Einordnung des Unternehmens nach Umsatz und Beschäftigtenzahl",
+    "Die Erscheinungsform nach Merkmalen wie Sortiment, Verkaufsform und Standort"
+   ],
+   "c": 3,
+   "e": "Die Betriebsform kennzeichnet, wie ein Handelsunternehmen am Markt auftritt, etwa als Fachgeschäft, Discounter oder Onlineshop. Die rechtliche Organisation ist dagegen die Rechtsform, die Gliederung in Abteilungen die Aufbauorganisation."
+  },
+  {
+   "q": "Wovon hängt das Warensortiment eines Handelsunternehmens vor allem ab?",
+   "o": [
+    "Von der Branche und der Betriebsgröße",
+    "Von der Rechtsform und dem Stammkapital",
+    "Von der Handelsregisterabteilung und dem Firmensitz",
+    "Von der Anzahl der Gesellschafter und der Haftung"
+   ],
+   "c": 0,
+   "e": "Die Branche bestimmt, welche Warenarten überhaupt angeboten werden, und die Betriebsgröße, wie breit und tief das Sortiment sein kann. Rechtsform, Stammkapital oder Haftung sagen nichts über das Warenangebot aus."
+  },
+  {
+   "q": "Was ist die Grundidee eines Assessmentcenters bei der Personalauswahl?",
+   "o": [
+    "Bewerber lösen einen schriftlichen Wissens- und Intelligenztest",
+    "Bewerber führen ein strukturiertes Einzelgespräch mit der Personalabteilung",
+    "Bewerber werden in berufsnahen Übungen von mehreren Beobachtern beurteilt",
+    "Bewerber arbeiten mehrere Wochen zur Probe in der Fachabteilung mit"
+   ],
+   "c": 2,
+   "e": "Im Assessmentcenter bearbeiten mehrere Bewerber praxisnahe Aufgaben wie Gruppendiskussionen, Rollenspiele oder Postkorbübungen, während geschulte Beobachter ihr Verhalten bewerten. Ein reiner Wissenstest oder ein Einzelgespräch sind eigenständige Auswahlverfahren."
+  },
+  {
+   "q": "Was regelt die Aufbauorganisation eines Unternehmens?",
+   "o": [
+    "Die Gliederung des Unternehmens in Abteilungen und Stellen",
+    "Den zeitlichen und räumlichen Ablauf der Arbeitsprozesse",
+    "Die Reihenfolge der Arbeitsschritte innerhalb eines Auftrags",
+    "Die Zuordnung der Arbeitsgänge zu den einzelnen Arbeitsplätzen"
+   ],
+   "c": 0,
+   "e": "Die Aufbauorganisation legt die statische Struktur fest: Welche Stellen und Abteilungen gibt es und wer ist wem unterstellt. Der zeitliche und räumliche Ablauf der Arbeitsprozesse gehört zur Ablauforganisation."
+  },
+  {
+   "q": "Was versteht man im Handel unter der Verkaufsform?",
+   "o": [
+    "Die Art, wie das Sortiment nach Breite und Tiefe gegliedert ist",
+    "Die Art, wie die Ware beim Lieferanten beschafft wird",
+    "Die Art, wie das Unternehmen rechtlich organisiert ist",
+    "Die Art, wie der Kunde die Ware auswählen und erwerben kann"
+   ],
+   "c": 3,
+   "e": "Die Verkaufsform beschreibt, wie der Kunde an die Ware gelangt, zum Beispiel Bedienung, Selbstbedienung oder Distanzhandel über einen Onlineshop. Breite und Tiefe betreffen die Sortimentsgestaltung, nicht die Verkaufsform."
+  },
+  {
+   "q": "Welche Aussage zu einem Filialunternehmen mit Zentrale trifft zu?",
+   "o": [
+    "Jede Filiale legt Sortiment und Preise eigenständig fest",
+    "Wesentliche Entscheidungen werden in der Zentrale getroffen",
+    "Die Filialen sind rechtlich selbstständige Unternehmen",
+    "Die Zentrale ist nur für die Buchführung der Filialen zuständig"
+   ],
+   "c": 1,
+   "e": "In einem Filialsystem steuert die Zentrale die wichtigen Bereiche wie Einkauf, Sortiment, Preise und Marketing einheitlich für alle Filialen. Die Filialen sind unselbstständige Betriebsstätten desselben Unternehmens."
+  },
+  {
+   "q": "Warum übernimmt die Zentrale eines Filialunternehmens häufig den Einkauf für alle Filialen gemeinsam?",
+   "o": [
+    "Weil das Handelsgesetzbuch dies für Filialbetriebe vorschreibt",
+    "Weil sich dadurch die Lieferzeiten für jede Filiale verkürzen",
+    "Weil größere Bestellmengen günstigere Einkaufskonditionen ermöglichen",
+    "Weil jede Filiale so ein individuelles Sortiment erhalten kann"
+   ],
+   "c": 2,
+   "e": "Durch die gebündelte Beschaffung steigen die Bestellmengen, wodurch Mengenrabatte und bessere Konditionen bei den Lieferanten erreicht werden. Eine gesetzliche Pflicht zum zentralen Einkauf gibt es nicht."
+  },
+  {
+   "q": "Was kennzeichnet eine Stabsstelle in der Aufbauorganisation?",
+   "o": [
+    "Eine Leitungsstelle mit Weisungsbefugnis gegenüber mehreren Abteilungen",
+    "Die oberste Leitungsebene, die alle Abteilungen koordiniert",
+    "Eine ausführende Stelle ohne eigene Entscheidungsbefugnis",
+    "Eine beratende Stelle ohne Weisungsbefugnis gegenüber anderen Stellen"
+   ],
+   "c": 3,
+   "e": "Stabsstellen wie Recht oder Controlling unterstützen und beraten eine Leitungsstelle, dürfen aber selbst keine Weisungen an andere Stellen erteilen. Weisungsbefugnis haben nur die Linienstellen."
+  },
+  {
+   "q": "Wer vertritt eine GmbH nach außen und führt ihre Geschäfte?",
+   "o": [
+    "Die Geschäftsführerin bzw. der Geschäftsführer",
+    "Die Gesellschafterversammlung",
+    "Der Aufsichtsrat",
+    "Der Vorstand"
+   ],
+   "c": 0,
+   "e": "Die Geschäftsführung ist das gesetzliche Vertretungsorgan der GmbH. Die Gesellschafterversammlung fasst Grundsatzbeschlüsse, der Vorstand ist das Leitungsorgan der AG."
+  },
+  {
+   "q": "Welches der folgenden Merkmale wird NICHT zur Beschreibung eines Handelsunternehmens herangezogen?",
+   "o": [
+    "Die Rechtsform des Unternehmens",
+    "Die Betriebsform des Unternehmens",
+    "Die Steuerklasse der Beschäftigten",
+    "Das Warensortiment des Unternehmens"
+   ],
+   "c": 2,
+   "e": "Ein Unternehmen wird über Merkmale wie Rechtsform, Betriebsform, Sortiment, Standort und Betriebsgröße beschrieben. Die Steuerklasse ist ein persönliches Merkmal einzelner Beschäftigter und sagt nichts über das Unternehmen aus."
+  },
+  {
+   "q": "Wie sollte sich ein Auszubildender am ersten Arbeitstag verhalten?",
+   "o": [
+    "Zurückhaltend bleiben und Fragen erst nach der Probezeit stellen",
+    "Sofort eigene Verbesserungsvorschläge für die Abläufe einbringen",
+    "Sich nur an die Kolleginnen und Kollegen der eigenen Abteilung wenden",
+    "Pünktlich erscheinen, höflich auftreten und aufmerksam zuhören"
+   ],
+   "c": 3,
+   "e": "Pünktlichkeit, Höflichkeit und Aufmerksamkeit schaffen einen guten ersten Eindruck und erleichtern die Einarbeitung. Verbesserungsvorschläge sind erst sinnvoll, wenn man die Abläufe kennt."
+  },
+  {
+   "q": "Welche Informationsquelle hilft einem neuen Mitarbeiter am besten, sich im Unternehmen zu orientieren?",
+   "o": [
+    "Das Organigramm des Unternehmens",
+    "Der Jahresabschluss des Unternehmens",
+    "Der Gesellschaftsvertrag der GmbH",
+    "Die Personalakten der Abteilung"
+   ],
+   "c": 0,
+   "e": "Das Organigramm zeigt die Abteilungen, Stellen und Zuständigkeiten auf einen Blick und macht so Ansprechpartner und Wege im Unternehmen sichtbar. Jahresabschluss und Gesellschaftsvertrag enthalten dazu keine Angaben."
+  },
+  {
+   "q": "Was enthält der betriebliche Ausbildungsplan?",
+   "o": [
+    "Die Regelungen zu Urlaub und Arbeitszeit im Betrieb",
+    "Die sachliche und zeitliche Gliederung der Ausbildung",
+    "Die Aufteilung der Ausbildungsvergütung nach Ausbildungsjahren",
+    "Den Stundenplan der Berufsschule für das Ausbildungsjahr"
+   ],
+   "c": 1,
+   "e": "Der Ausbildungsplan legt fest, welche Inhalte in welchem Zeitraum und in welcher Abteilung vermittelt werden. Urlaub, Arbeitszeit und Vergütung stehen im Ausbildungsvertrag, der Stundenplan kommt von der Berufsschule."
+  },
+  {
+   "q": "Wofür steht die Abkürzung JAV?",
+   "o": [
+    "Jugend- und Arbeitnehmervereinigung",
+    "Junge Auszubildende im Verband",
+    "Jahresausbildungsvertrag",
+    "Jugend- und Auszubildendenvertretung"
+   ],
+   "c": 3,
+   "e": "Die Jugend- und Auszubildendenvertretung vertritt die Interessen der Auszubildenden und der Beschäftigten unter 18 Jahren gegenüber dem Betriebsrat und dem Arbeitgeber. Die anderen Begriffe sind Wortneuschöpfungen ohne rechtliche Grundlage."
+  },
+  {
+   "q": "Wie geht man in der Einarbeitung am besten mit offenen Fragen um?",
+   "o": [
+    "Fragen notieren und beim zuständigen Ansprechpartner klären",
+    "Fragen durch eigenes Ausprobieren selbst beantworten",
+    "Fragen bis zum nächsten Beurteilungsgespräch zurückstellen",
+    "Fragen direkt an die Geschäftsführung richten"
+   ],
+   "c": 0,
+   "e": "Notierte Fragen gehen nicht verloren und können gebündelt mit dem Ausbilder oder der Kollegin geklärt werden. Eigenes Ausprobieren ohne Rücksprache kann zu Fehlern führen, die Geschäftsführung ist dafür nicht die richtige Ebene."
+  },
+  {
+   "q": "Wer ist im Betrieb die erste Anlaufstelle für Auszubildende bei Fragen zur Ausbildung?",
+   "o": [
+    "Die Ausbildungsberatung der IHK",
+    "Die Klassenleitung der Berufsschule",
+    "Die Ausbilderin bzw. der Ausbilder",
+    "Die Geschäftsführung des Unternehmens"
+   ],
+   "c": 2,
+   "e": "Die Ausbilderin bzw. der Ausbilder ist im Betrieb für die Durchführung der Ausbildung verantwortlich und daher erster Ansprechpartner. Die IHK-Ausbildungsberatung wird erst eingeschaltet, wenn Probleme betrieblich nicht gelöst werden können."
+  },
+  {
+   "q": "Welches Verhalten eines Auszubildenden signalisiert Lernbereitschaft?",
+   "o": [
+    "Aufgaben nur nach ausdrücklicher Anweisung erledigen",
+    "Notizen machen und bei Unklarheiten aktiv nachfragen",
+    "Bekannte Aufgaben möglichst schnell abschließen",
+    "Vorschläge der Kollegen grundsätzlich kritisch hinterfragen"
+   ],
+   "c": 1,
+   "e": "Wer mitschreibt und nachfragt, zeigt Interesse und sorgt dafür, dass Erklärungen nicht mehrfach nötig sind. Schnelles Abarbeiten bekannter Aufgaben allein zeigt Routine, aber keine Bereitschaft, Neues zu lernen."
+  }
+ ]
+}

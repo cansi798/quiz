@@ -1,0 +1,228 @@
+{
+ "day": 5,
+ "name": "Quiz 10",
+ "topic": "Rechtsformen und Aufbauorganisation",
+ "src": "Kapitel 1.19 und 1.20, Buch S. 142 bis 158",
+ "mc": [
+  {
+   "q": "Ein Kunde der Exclusiva GmbH betreibt seinen Onlineshop als eingetragener Kaufmann (Einzelunternehmen). Wie haftet er für die Verbindlichkeiten seines Unternehmens?",
+   "o": [
+    "Nur mit dem im Handelsregister eingetragenen Betriebsvermögen",
+    "Nur bis zur Höhe der von ihm geleisteten Kapitaleinlage",
+    "Unbeschränkt mit seinem gesamten Geschäfts- und Privatvermögen",
+    "Gesamtschuldnerisch gemeinsam mit seinen Mitgesellschaftern"
+   ],
+   "c": 2,
+   "e": "Beim Einzelunternehmen gibt es keine Trennung zwischen Geschäfts- und Privatvermögen, der Inhaber haftet daher unbeschränkt mit allem, was er besitzt. Eine Haftungsbeschränkung auf eine Einlage gibt es nur bei Kapitalgesellschaften oder beim Kommanditisten."
+  },
+  {
+   "q": "Zwei Gründer wollen mit möglichst geringem Formaufwand gemeinsam einen kleinen Onlinehandel starten. Welche Rechtsform ist die einfachste Form der Personengesellschaft?",
+   "o": [
+    "Gesellschaft bürgerlichen Rechts (GbR)",
+    "Offene Handelsgesellschaft (OHG)",
+    "Kommanditgesellschaft (KG)",
+    "GmbH & Co. KG"
+   ],
+   "c": 0,
+   "e": "Die GbR entsteht formlos durch den Zusammenschluss von mindestens zwei Personen zu einem gemeinsamen Zweck und benötigt weder Mindestkapital noch zwingend einen Handelsregistereintrag. OHG und KG setzen dagegen den Betrieb eines Handelsgewerbes und die Eintragung ins Handelsregister voraus."
+  },
+  {
+   "q": "Drei Großhandelskunden der Exclusiva GmbH haben sich zu einer OHG zusammengeschlossen. Wie haften die Gesellschafter für die Schulden der OHG?",
+   "o": [
+    "Beschränkt auf die im Gesellschaftsvertrag vereinbarte Einlage",
+    "Nur mit dem Gesellschaftsvermögen, nicht mit dem Privatvermögen",
+    "Anteilig entsprechend der Höhe ihrer jeweiligen Kapitalbeteiligung",
+    "Unbeschränkt, persönlich und gesamtschuldnerisch"
+   ],
+   "c": 3,
+   "e": "Jeder OHG-Gesellschafter haftet mit seinem gesamten Privatvermögen, und ein Gläubiger kann die volle Forderung von jedem einzelnen Gesellschafter verlangen (gesamtschuldnerisch). Eine anteilige oder auf die Einlage beschränkte Haftung gibt es bei der OHG nicht."
+  },
+  {
+   "q": "Welcher Gesellschafter ist in einer Kommanditgesellschaft (KG) der Vollhafter?",
+   "o": [
+    "Der Kommanditist",
+    "Der Komplementär",
+    "Der Prokurist",
+    "Der Gesellschafter-Geschäftsführer"
+   ],
+   "c": 1,
+   "e": "Der Komplementär haftet unbeschränkt mit seinem Privatvermögen und führt in der Regel die Geschäfte der KG. Der Kommanditist ist dagegen der Teilhafter, der Prokurist ist nur ein Bevollmächtigter und kein Gesellschafter."
+  },
+  {
+   "q": "Ein Investor beteiligt sich als Kommanditist an einer KG. Womit haftet er gegenüber den Gläubigern der Gesellschaft?",
+   "o": [
+    "Nur mit seiner im Handelsregister eingetragenen Einlage",
+    "Unbeschränkt mit seinem gesamten Privatvermögen",
+    "Gesamtschuldnerisch in gleicher Weise wie der Komplementär",
+    "Nur mit seinem Anteil am laufenden Jahresgewinn"
+   ],
+   "c": 0,
+   "e": "Der Kommanditist ist Teilhafter: Seine Haftung ist auf die im Handelsregister eingetragene Einlage begrenzt, sobald diese vollständig geleistet ist. Die unbeschränkte Haftung mit dem Privatvermögen trifft nur den Komplementär."
+  },
+  {
+   "q": "Wie hoch ist das gesetzlich vorgeschriebene Mindeststammkapital einer GmbH wie der Exclusiva GmbH?",
+   "o": [
+    "1 Euro",
+    "12.500 Euro",
+    "25.000 Euro",
+    "50.000 Euro"
+   ],
+   "c": 2,
+   "e": "Das GmbH-Gesetz schreibt ein Stammkapital von mindestens 25.000 Euro vor, von dem bei der Anmeldung mindestens die Hälfte (12.500 Euro) eingezahlt sein muss. Die 50.000 Euro sind das Mindestgrundkapital der AG, 1 Euro genügt nur bei der UG (haftungsbeschränkt)."
+  },
+  {
+   "q": "Die Exclusiva GmbH prüft die Umwandlung in eine Aktiengesellschaft. Wie hoch ist das gesetzliche Mindestgrundkapital einer AG?",
+   "o": [
+    "10.000 Euro",
+    "25.000 Euro",
+    "100.000 Euro",
+    "50.000 Euro"
+   ],
+   "c": 3,
+   "e": "Nach dem Aktiengesetz beträgt das Mindestgrundkapital einer AG 50.000 Euro, das in Aktien zerlegt ist. 25.000 Euro sind das Mindeststammkapital der GmbH und werden deshalb häufig verwechselt."
+  },
+  {
+   "q": "Was kennzeichnet die Unternehmergesellschaft (haftungsbeschränkt) im Vergleich zur GmbH?",
+   "o": [
+    "Sie erfordert wie die GmbH ein Stammkapital von mindestens 25.000 Euro",
+    "Sie ist ab 1 Euro Stammkapital gründbar, muss aber jährlich Rücklagen bilden",
+    "Ihre Gesellschafter haften unbeschränkt mit ihrem gesamten Privatvermögen",
+    "Sie darf ihr Stammkapital vollständig als Sacheinlage in Form von Waren leisten"
+   ],
+   "c": 1,
+   "e": "Die UG ist eine Sonderform der GmbH, die bereits ab 1 Euro Stammkapital gegründet werden kann; dafür muss sie jährlich ein Viertel des Jahresüberschusses in eine Rücklage einstellen, bis 25.000 Euro erreicht sind. Die Haftung ist wie bei der GmbH auf das Gesellschaftsvermögen beschränkt, Sacheinlagen sind bei der Gründung nicht zulässig."
+  },
+  {
+   "q": "Welche drei Organe schreibt das Aktiengesetz für eine Aktiengesellschaft vor?",
+   "o": [
+    "Vorstand, Aufsichtsrat und Hauptversammlung",
+    "Geschäftsführung, Beirat und Gesellschafterversammlung",
+    "Vorstand, Betriebsrat und Gesellschafterversammlung",
+    "Geschäftsführung, Aufsichtsrat und Generalversammlung"
+   ],
+   "c": 0,
+   "e": "Der Vorstand leitet die AG, der Aufsichtsrat bestellt und kontrolliert den Vorstand, und die Hauptversammlung ist das Organ der Aktionäre. Geschäftsführung und Gesellschafterversammlung sind dagegen die Organe der GmbH, die Generalversammlung gehört zur Genossenschaft."
+  },
+  {
+   "q": "Wer führt bei einer GmbH wie der Exclusiva GmbH die Geschäfte und vertritt sie nach außen?",
+   "o": [
+    "Die Gesellschafterversammlung im laufenden Tagesgeschäft",
+    "Der Aufsichtsrat als gesetzlich vorgeschriebenes Pflichtorgan",
+    "Der Vorstand, der von der Hauptversammlung bestellt wird",
+    "Ein oder mehrere von den Gesellschaftern bestellte Geschäftsführer"
+   ],
+   "c": 3,
+   "e": "Die Geschäftsführer sind das geschäftsführende und vertretungsberechtigte Organ der GmbH; sie werden von der Gesellschafterversammlung bestellt. Die Gesellschafterversammlung trifft nur die Grundsatzentscheidungen, ein Aufsichtsrat ist bei der GmbH erst ab 500 Beschäftigten Pflicht."
+  },
+  {
+   "q": "Ein Gründer vergleicht verschiedene Rechtsformen für seinen geplanten Onlinehandel. Welches Kriterium spielt bei der Wahl der Rechtsform üblicherweise keine Rolle?",
+   "o": [
+    "Der Umfang der persönlichen Haftung der Gründer",
+    "Die Sortimentsbreite des geplanten Onlineshops",
+    "Der Kapitalbedarf und die Finanzierungsmöglichkeiten",
+    "Der Gründungsaufwand und die Formvorschriften"
+   ],
+   "c": 1,
+   "e": "Typische Entscheidungskriterien für die Rechtsform sind Haftung, Kapitalbedarf, Gründungsaufwand, Geschäftsführungs- und Vertretungsbefugnis, Steuern sowie Publizitätspflichten. Die Sortimentsbreite ist eine Frage der Sortimentspolitik und hat mit der rechtlichen Organisationsform des Unternehmens nichts zu tun."
+  },
+  {
+   "q": "In welcher Rechtsform werden die Anteilseigner als Aktionäre bezeichnet?",
+   "o": [
+    "Offene Handelsgesellschaft (OHG)",
+    "Kommanditgesellschaft (KG)",
+    "Aktiengesellschaft (AG)",
+    "Gesellschaft mit beschränkter Haftung (GmbH)"
+   ],
+   "c": 2,
+   "e": "Bei der AG ist das Grundkapital in Aktien zerlegt, deren Inhaber Aktionäre heißen. Bei der GmbH spricht man dagegen von Gesellschaftern mit Geschäftsanteilen, bei OHG und KG von Gesellschaftern beziehungsweise Komplementären und Kommanditisten."
+  },
+  {
+   "q": "Die Exclusiva GmbH erstellt ein Organigramm. Was ist die kleinste organisatorische Einheit in der Aufbauorganisation?",
+   "o": [
+    "Die Stelle",
+    "Die Abteilung",
+    "Die Instanz",
+    "Die Sparte"
+   ],
+   "c": 0,
+   "e": "Die Stelle ist die kleinste organisatorische Einheit und fasst die Aufgaben zusammen, die eine Person bewältigen kann. Mehrere Stellen werden zu Abteilungen zusammengefasst; eine Instanz ist eine besondere Stelle mit Leitungsbefugnis, aber keine kleinere Einheit."
+  },
+  {
+   "q": "Was versteht man in der Aufbauorganisation unter einer Instanz?",
+   "o": [
+    "Eine Stabsstelle, die die Leitung berät und entlastet",
+    "Eine ausführende Stelle ohne eigene Entscheidungskompetenz",
+    "Eine Abteilung, die mehrere gleichrangige Stellen zusammenfasst",
+    "Eine Stelle mit Leitungs- und Weisungsbefugnis gegenüber anderen Stellen"
+   ],
+   "c": 3,
+   "e": "Eine Instanz ist eine Leitungsstelle, die anderen Stellen Weisungen erteilen darf und Entscheidungen trifft, zum Beispiel die Leitung des Onlinevertriebs. Eine Stabsstelle hat im Gegensatz dazu keine Weisungsbefugnis."
+  },
+  {
+   "q": "Die Geschäftsführung der Exclusiva GmbH richtet eine Stabsstelle Recht und Datenschutz ein. Was kennzeichnet eine Stabsstelle?",
+   "o": [
+    "Sie hat Weisungsbefugnis gegenüber allen nachgeordneten Stellen",
+    "Sie führt als Instanz eine eigene Abteilung mit mehreren Stellen",
+    "Sie berät und entlastet die Leitung, hat aber keine Weisungsbefugnis",
+    "Sie übernimmt ausschließlich ausführende Tätigkeiten auf der untersten Ebene"
+   ],
+   "c": 2,
+   "e": "Stabsstellen sind einer Instanz zugeordnet und unterstützen sie durch Beratung, Informationsbeschaffung und Entscheidungsvorbereitung. Anders als eine Instanz dürfen sie anderen Stellen keine Weisungen erteilen."
+  },
+  {
+   "q": "Im Einliniensystem hat jede Stelle ...",
+   "o": [
+    "mehrere fachlich zuständige Vorgesetzte.",
+    "genau einen direkten Vorgesetzten.",
+    "je nach Projekt wechselnde Vorgesetzte.",
+    "zwei gleichberechtigte Vorgesetzte."
+   ],
+   "c": 1,
+   "e": "Im Einliniensystem gilt das Prinzip der Einheit der Auftragserteilung: Jede Stelle erhält Weisungen nur von einer übergeordneten Instanz. Mehrere Vorgesetzte je Stelle sind das Merkmal des Mehrliniensystems."
+  },
+  {
+   "q": "Welcher Nachteil ist typisch für das Einliniensystem?",
+   "o": [
+    "Lange Dienst- und Kommunikationswege über mehrere Ebenen",
+    "Kompetenzkonflikte durch mehrere weisungsbefugte Vorgesetzte",
+    "Unklare Zuständigkeiten und Verantwortlichkeiten",
+    "Hoher Abstimmungsbedarf zwischen den Weisungslinien"
+   ],
+   "c": 0,
+   "e": "Weil jede Information und jede Weisung im Einliniensystem den vollständigen Dienstweg über alle Hierarchieebenen nehmen muss, sind die Wege lang und die oberen Instanzen stark belastet. Klare Zuständigkeiten sind dagegen gerade der Vorteil dieses Systems, Kompetenzkonflikte treten im Mehrliniensystem auf."
+  },
+  {
+   "q": "Welcher Nachteil ist typisch für das Mehrliniensystem?",
+   "o": [
+    "Lange Dienstwege über viele Hierarchieebenen",
+    "Überlastung der Instanzen durch zu viele Aufgaben",
+    "Fehlende fachliche Spezialisierung der Vorgesetzten",
+    "Kompetenzkonflikte durch mehrere weisungsbefugte Vorgesetzte"
+   ],
+   "c": 3,
+   "e": "Im Mehrliniensystem erhält eine Stelle Weisungen von mehreren spezialisierten Vorgesetzten; widersprechen sich diese Anweisungen, entstehen Kompetenzkonflikte und unklare Verantwortung. Lange Dienstwege und Überlastung der Instanzen sind dagegen die typischen Nachteile des Einliniensystems."
+  },
+  {
+   "q": "Die Exclusiva GmbH gliedert ihre zweite Führungsebene in die Bereiche B2B-Großhandel und B2C-Onlineshop. Nach welchem Kriterium gliedert eine solche Spartenorganisation?",
+   "o": [
+    "Nach Verrichtungen wie Einkauf, Lager und Verkauf",
+    "Nach Objekten wie Produkten, Regionen oder Kundengruppen",
+    "Nach Hierarchieebenen von der Leitung bis zur Ausführung",
+    "Nach Projekten mit befristeter Laufzeit und eigenem Team"
+   ],
+   "c": 1,
+   "e": "Die Spartenorganisation (Divisionalorganisation) gliedert nach Objekten, also nach Produktgruppen, Regionen oder Kundengruppen, wobei jede Sparte weitgehend eigenständig arbeitet. Die Gliederung nach Verrichtungen (Funktionen) ist dagegen das Merkmal der funktionalen Organisation."
+  },
+  {
+   "q": "Was kennzeichnet die Matrixorganisation?",
+   "o": [
+    "Eine einzige durchgehende Weisungslinie von der Leitung bis zur Ausführung",
+    "Mehrere Stabsstellen, die die Leitung ohne Weisungsrecht beraten",
+    "Zwei sich überlagernde Weisungslinien, zum Beispiel nach Funktion und Produkt",
+    "Eigenständige Sparten mit jeweils eigener Ergebnisverantwortung"
+   ],
+   "c": 2,
+   "e": "In der Matrixorganisation werden zwei Gliederungskriterien kombiniert, etwa Funktionen (Einkauf, Marketing) und Produkte oder Regionen, sodass eine Stelle zwei Vorgesetzten unterstellt ist. Eine einzige Weisungslinie kennzeichnet dagegen das Einliniensystem, eigenständige Sparten die Spartenorganisation."
+  }
+ ]
+}

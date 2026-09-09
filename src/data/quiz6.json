@@ -1,0 +1,228 @@
+{
+ "day": 3,
+ "name": "Quiz 6",
+ "topic": "Rechte, Pflichten und Jugendarbeitsschutz",
+ "src": "Kapitel 1.11 und 1.12, Buch S. 105 bis 110",
+ "mc": [
+  {
+   "q": "Welche Pflicht nach § 13 BBiG gilt als Kernpflicht der Auszubildenden der Exclusiva GmbH?",
+   "o": [
+    "Die Pflicht, die Berufsschule regelmäßig zu besuchen",
+    "Die Pflicht, den Ausbildungsnachweis ordentlich zu führen",
+    "Die Pflicht, sich zu bemühen, das Ausbildungsziel zu erreichen",
+    "Die Pflicht, Betriebs- und Geschäftsgeheimnisse zu wahren"
+   ],
+   "c": 2,
+   "e": "Die Kernpflicht der Auszubildenden ist die Lernpflicht: Sie müssen sich bemühen, die für das Ausbildungsziel nötigen Fertigkeiten und Kenntnisse zu erwerben. Berufsschulbesuch, Ausbildungsnachweis und Schweigepflicht sind daraus abgeleitete Nebenpflichten."
+  },
+  {
+   "q": "Welche Pflicht nach § 14 BBiG gilt als Kernpflicht der Ausbildenden, also der Exclusiva GmbH als Ausbildungsbetrieb?",
+   "o": [
+    "Die Pflicht, die Ausbildungsinhalte planmäßig zu vermitteln",
+    "Die Pflicht, den Ausbildungsnachweis regelmäßig zu prüfen",
+    "Die Pflicht, ein Zeugnis über die Ausbildung zu erteilen",
+    "Die Pflicht, für den Berufsschulunterricht freizustellen"
+   ],
+   "c": 0,
+   "e": "Die Kernpflicht der Ausbildenden ist die Ausbildungspflicht: Sie müssen die Fertigkeiten und Kenntnisse vermitteln, die zum Erreichen des Ausbildungsziels nötig sind. Freistellung, Zeugnis und Prüfung des Ausbildungsnachweises sind Nebenpflichten."
+  },
+  {
+   "q": "Wer trägt nach § 14 BBiG die Kosten für die Ausbildungsmittel, die zur Berufsausbildung und zur Prüfung erforderlich sind?",
+   "o": [
+    "Die Auszubildenden aus ihrer Ausbildungsvergütung",
+    "Die zuständige Industrie- und Handelskammer",
+    "Die Berufsschule aus ihrem Lehrmittelbudget",
+    "Der Ausbildungsbetrieb kostenlos für die Auszubildenden"
+   ],
+   "c": 3,
+   "e": "Ausbildende müssen den Auszubildenden die erforderlichen Ausbildungsmittel wie Werkzeuge und Werkstoffe kostenlos zur Verfügung stellen. Die IHK ist nur für die Überwachung und die Prüfungen zuständig, nicht für die Ausstattung."
+  },
+  {
+   "q": "Welche Aussage zur Ausbildungsvergütung nach § 17 BBiG ist richtig?",
+   "o": [
+    "Sie ist frei verhandelbar und bleibt über die gesamte Ausbildung gleich",
+    "Sie muss angemessen sein und mit fortschreitender Ausbildung ansteigen",
+    "Sie richtet sich nach dem Mindestlohngesetz und steigt halbjährlich",
+    "Sie wird erst nach bestandener Zwischenprüfung in voller Höhe gezahlt"
+   ],
+   "c": 1,
+   "e": "Die Ausbildungsvergütung muss angemessen sein und mindestens jährlich ansteigen; zusätzlich gilt die Mindestausbildungsvergütung des BBiG. Das Mindestlohngesetz gilt für Auszubildende ausdrücklich nicht."
+  },
+  {
+   "q": "Wie kann die Exclusiva GmbH ein Ausbildungsverhältnis nach Ablauf der Probezeit gemäß § 22 BBiG kündigen?",
+   "o": [
+    "Nur fristlos aus einem wichtigen Grund",
+    "Ordentlich mit einer Frist von vier Wochen",
+    "Ordentlich mit einer Frist von drei Monaten",
+    "Nur mit Zustimmung der zuständigen IHK"
+   ],
+   "c": 0,
+   "e": "Nach der Probezeit darf der Ausbildungsbetrieb nur noch aus einem wichtigen Grund ohne Einhaltung einer Kündigungsfrist kündigen. Eine ordentliche Kündigung mit Frist steht nach der Probezeit allein den Auszubildenden zu."
+  },
+  {
+   "q": "Mit welcher Frist können Auszubildende nach der Probezeit kündigen, wenn sie die Berufsausbildung aufgeben oder einen anderen Beruf erlernen wollen?",
+   "o": [
+    "Fristlos ohne Angabe von Gründen",
+    "Mit einer Frist von zwei Wochen",
+    "Mit einer Frist von vier Wochen",
+    "Mit einer Frist von drei Monaten"
+   ],
+   "c": 2,
+   "e": "Auszubildende können nach der Probezeit mit einer Kündigungsfrist von vier Wochen kündigen, wenn sie die Ausbildung aufgeben oder eine andere Berufstätigkeit anstreben. Eine fristlose Kündigung ist nur aus wichtigem Grund möglich."
+  },
+  {
+   "q": "Wann endet das Ausbildungsverhältnis nach § 21 BBiG, wenn die Abschlussprüfung vor Ablauf der vereinbarten Ausbildungszeit bestanden wird?",
+   "o": [
+    "Mit Ablauf der im Ausbildungsvertrag vereinbarten Ausbildungszeit",
+    "Mit dem Ende des Monats, in dem die Prüfung abgelegt wurde",
+    "Mit dem Zugang des schriftlichen Prüfungszeugnisses der IHK",
+    "Mit der Bekanntgabe des Ergebnisses durch den Prüfungsausschuss"
+   ],
+   "c": 3,
+   "e": "Wird die Abschlussprüfung vor Ablauf der Ausbildungszeit bestanden, endet das Ausbildungsverhältnis bereits mit der Bekanntgabe des Ergebnisses durch den Prüfungsausschuss. Auf die vereinbarte Vertragsdauer oder das spätere Zeugnis kommt es dann nicht mehr an."
+  },
+  {
+   "q": "Wofür muss die Exclusiva GmbH ihre Auszubildenden nach § 15 BBiG freistellen?",
+   "o": [
+    "Für die Teilnahme an Weiterbildungen privater Bildungsanbieter",
+    "Für den Berufsschulunterricht und die Teilnahme an Prüfungen",
+    "Für die Prüfungsvorbereitung in den letzten zwei Wochen vor der Prüfung",
+    "Für die Mitarbeit in der Jugendvertretung eines anderen Betriebs"
+   ],
+   "c": 1,
+   "e": "Auszubildende müssen für den Berufsschulunterricht, für Prüfungen und für außerbetriebliche Ausbildungsmaßnahmen freigestellt werden. Eine allgemeine Freistellung zur Prüfungsvorbereitung sieht das BBiG nicht vor, wohl aber den Arbeitstag unmittelbar vor der schriftlichen Abschlussprüfung."
+  },
+  {
+   "q": "Worauf bezieht sich die Schweigepflicht der Auszubildenden nach § 13 BBiG?",
+   "o": [
+    "Auf Betriebs- und Geschäftsgeheimnisse des Ausbildungsbetriebs",
+    "Auf sämtliche Gespräche mit Kolleginnen und Kollegen im Betrieb",
+    "Auf die eigene Ausbildungsvergütung und die persönlichen Daten",
+    "Auf alle Inhalte des Ausbildungsnachweises und der Berufsschule"
+   ],
+   "c": 0,
+   "e": "Auszubildende müssen über Betriebs- und Geschäftsgeheimnisse Stillschweigen bewahren, etwa über Kalkulationen, Lieferantenkonditionen oder Kundendaten der Exclusiva GmbH. Alltägliche betriebliche Gespräche oder Ausbildungsinhalte fallen nicht darunter."
+  },
+  {
+   "q": "Worauf haben Auszubildende nach § 16 BBiG bei Beendigung des Ausbildungsverhältnisses Anspruch?",
+   "o": [
+    "Auf eine Abfindung in Höhe einer Monatsvergütung",
+    "Auf eine Übernahme in ein befristetes Arbeitsverhältnis",
+    "Auf die Erstattung der Kosten für die Ausbildungsmittel",
+    "Auf ein schriftliches Zeugnis über die Berufsausbildung"
+   ],
+   "c": 3,
+   "e": "Ausbildende müssen bei Beendigung des Ausbildungsverhältnisses ein schriftliches Zeugnis ausstellen, das Art, Dauer und Ziel der Ausbildung sowie die erworbenen Fertigkeiten enthält. Einen Anspruch auf Übernahme oder Abfindung gibt es nach dem BBiG nicht."
+  },
+  {
+   "q": "Für welchen Personenkreis gilt das Jugendarbeitsschutzgesetz (JArbSchG)?",
+   "o": [
+    "Für alle Auszubildenden unabhängig von ihrem Alter",
+    "Für alle Beschäftigten bis zur Vollendung des 21. Lebensjahres",
+    "Für Beschäftigte, die noch nicht 18 Jahre alt sind",
+    "Für Kinder bis zur Vollendung des 15. Lebensjahres"
+   ],
+   "c": 2,
+   "e": "Das JArbSchG schützt Kinder und Jugendliche, also Beschäftigte unter 18 Jahren. Volljährige Auszubildende fallen unter das allgemeine Arbeitszeitgesetz, auch wenn sie noch in der Ausbildung sind."
+  },
+  {
+   "q": "Wie lange dürfen Jugendliche nach § 8 JArbSchG grundsätzlich höchstens täglich beschäftigt werden?",
+   "o": [
+    "Höchstens 7 Stunden täglich",
+    "Höchstens 8 Stunden täglich",
+    "Höchstens 9 Stunden täglich",
+    "Höchstens 10 Stunden täglich"
+   ],
+   "c": 1,
+   "e": "Jugendliche dürfen nicht mehr als acht Stunden täglich und nicht mehr als 40 Stunden wöchentlich beschäftigt werden. Die Grenze von zehn Stunden aus dem Arbeitszeitgesetz gilt nur für Erwachsene."
+  },
+  {
+   "q": "Welche Ruhepause steht Jugendlichen nach § 11 JArbSchG bei einer Arbeitszeit von mehr als sechs Stunden mindestens zu?",
+   "o": [
+    "Mindestens 15 Minuten",
+    "Mindestens 30 Minuten",
+    "Mindestens 45 Minuten",
+    "Mindestens 60 Minuten"
+   ],
+   "c": 3,
+   "e": "Bei mehr als sechs Stunden Arbeitszeit müssen Jugendliche mindestens 60 Minuten Ruhepause erhalten; bei viereinhalb bis sechs Stunden sind es 30 Minuten. Die 45 Minuten gelten nach dem Arbeitszeitgesetz für Erwachsene bei mehr als neun Stunden."
+  },
+  {
+   "q": "In welchem Zeitraum dürfen Jugendliche nach § 14 JArbSchG grundsätzlich beschäftigt werden?",
+   "o": [
+    "Nur in der Zeit von 6 bis 20 Uhr",
+    "Nur in der Zeit von 7 bis 22 Uhr",
+    "Nur in der Zeit von 8 bis 18 Uhr",
+    "Nur in der Zeit von 5 bis 21 Uhr"
+   ],
+   "c": 0,
+   "e": "Jugendliche dürfen grundsätzlich nur zwischen 6 und 20 Uhr beschäftigt werden; alles außerhalb gilt als Nachtruhe. Ausnahmen gibt es nur für bestimmte Branchen wie Gaststätten oder Bäckereien."
+  },
+  {
+   "q": "An wie vielen Tagen pro Woche dürfen Jugendliche nach § 15 JArbSchG höchstens beschäftigt werden?",
+   "o": [
+    "An höchstens vier Tagen in der Woche",
+    "An höchstens fünf Tagen in der Woche",
+    "An höchstens sechs Tagen in der Woche",
+    "An sieben Tagen mit Ausgleich in der Folgewoche"
+   ],
+   "c": 1,
+   "e": "Jugendliche dürfen nur an fünf Tagen in der Woche beschäftigt werden; die beiden freien Tage sollen möglichst aufeinander folgen. Die Sechs-Tage-Woche des Arbeitszeitgesetzes gilt nur für Erwachsene."
+  },
+  {
+   "q": "Welche Untersuchung muss nach § 32 JArbSchG vor Beginn der Beschäftigung eines Jugendlichen vorliegen?",
+   "o": [
+    "Eine arbeitsmedizinische Eignungsuntersuchung durch den Betriebsarzt",
+    "Eine amtsärztliche Gesundheitsbescheinigung des Gesundheitsamts",
+    "Eine ärztliche Erstuntersuchung, die nicht älter als 14 Monate ist",
+    "Eine schulärztliche Abschlussuntersuchung der allgemeinbildenden Schule"
+   ],
+   "c": 2,
+   "e": "Jugendliche dürfen nur beschäftigt werden, wenn sie innerhalb der letzten 14 Monate ärztlich untersucht wurden und dem Arbeitgeber die Bescheinigung über die Erstuntersuchung vorliegt. Die Untersuchung kann jeder Arzt durchführen, nicht nur Betriebs- oder Amtsarzt."
+  },
+  {
+   "q": "Bis wann muss nach § 33 JArbSchG die Bescheinigung über die erste Nachuntersuchung eines Jugendlichen vorgelegt werden?",
+   "o": [
+    "Vor Ablauf des ersten Jahres nach Beschäftigungsbeginn",
+    "Vor Ablauf der Probezeit von höchstens vier Monaten",
+    "Vor der Anmeldung zur Zwischenprüfung bei der IHK",
+    "Vor Ablauf des zweiten Jahres nach Beschäftigungsbeginn"
+   ],
+   "c": 0,
+   "e": "Ein Jahr nach Aufnahme der ersten Beschäftigung muss sich der Jugendliche nachuntersuchen lassen; die Bescheinigung ist vor Ablauf des ersten Beschäftigungsjahres vorzulegen. Probezeit oder Zwischenprüfung sind dafür ohne Bedeutung."
+  },
+  {
+   "q": "Ab welchem Alter gilt eine Person nach § 2 JArbSchG als Jugendlicher?",
+   "o": [
+    "Ab dem vollendeten 13. Lebensjahr",
+    "Ab dem vollendeten 14. Lebensjahr",
+    "Ab dem vollendeten 16. Lebensjahr",
+    "Ab dem vollendeten 15. Lebensjahr"
+   ],
+   "c": 3,
+   "e": "Jugendlicher ist, wer 15, aber noch nicht 18 Jahre alt ist; wer noch keine 15 Jahre alt ist, gilt als Kind. Die Grenze von 14 Jahren stammt aus dem Strafrecht und ist eine typische Verwechslung."
+  },
+  {
+   "q": "Wie viele Werktage Mindesturlaub stehen Jugendlichen nach § 19 JArbSchG zu, die zu Beginn des Kalenderjahres noch nicht 16 Jahre alt sind?",
+   "o": [
+    "Mindestens 27 Werktage",
+    "Mindestens 30 Werktage",
+    "Mindestens 25 Werktage",
+    "Mindestens 24 Werktage"
+   ],
+   "c": 1,
+   "e": "Der Mindesturlaub ist nach Alter gestaffelt: 30 Werktage unter 16 Jahren, 27 Werktage unter 17 Jahren und 25 Werktage unter 18 Jahren. Die 24 Werktage gelten nach dem Bundesurlaubsgesetz für Erwachsene."
+  },
+  {
+   "q": "Welche Arbeiten sind für Jugendliche nach §§ 22 und 23 JArbSchG grundsätzlich verboten?",
+   "o": [
+    "Arbeiten mit Kundenkontakt im Einzelhandel",
+    "Arbeiten im Warenlager der Exclusiva GmbH",
+    "Gefährliche Arbeiten und Akkordarbeit",
+    "Arbeiten an Bildschirmarbeitsplätzen"
+   ],
+   "c": 2,
+   "e": "Jugendliche dürfen keine gefährlichen Arbeiten ausführen, etwa mit Unfallgefahren oder Gefahrstoffen, und nicht im Akkord oder unter tempoabhängiger Entlohnung arbeiten. Kaufmännische Tätigkeiten am Bildschirm, im Lager oder mit Kunden sind erlaubt."
+  }
+ ]
+}

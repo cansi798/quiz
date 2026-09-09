@@ -1,0 +1,228 @@
+{
+ "day": 2,
+ "name": "Quiz 3",
+ "topic": "E-Commerce-Arten und Vertriebskanäle",
+ "src": "Kapitel 1.5 und 1.6, Buch S. 48 bis 67",
+ "mc": [
+  {
+   "q": "Die Exclusiva GmbH wickelt Beschaffung, Verkauf, Zahlung und Kundenservice zunehmend über digitale Systeme ab. Welche Definition beschreibt den Begriff E-Business zutreffend?",
+   "o": [
+    "Die elektronische Unterstützung ausschließlich des Verkaufsprozesses im Webshop",
+    "Die Nutzung elektronischer Medien allein für Werbung und Kundenkommunikation",
+    "Die elektronische Abwicklung sämtlicher Geschäftsprozesse eines Unternehmens",
+    "Die elektronische Verwaltung der Buchführung und des internen Rechnungswesens"
+   ],
+   "c": 2,
+   "e": "E-Business umfasst die Digitalisierung aller Geschäftsprozesse, also neben Verkauf auch Beschaffung, Logistik, Zahlung und Service. Die Beschränkung auf den Verkauf beschreibt lediglich den Teilbereich E-Commerce."
+  },
+  {
+   "q": "Wie ist das Verhältnis zwischen E-Business und E-Commerce fachlich korrekt beschrieben?",
+   "o": [
+    "E-Commerce ist der wichtigste Teilbereich des umfassenderen E-Business",
+    "E-Business ist ein Teilbereich des umfassenderen E-Commerce",
+    "E-Business und E-Commerce bezeichnen denselben Sachverhalt",
+    "E-Business betrifft nur B2B, E-Commerce betrifft nur B2C"
+   ],
+   "c": 0,
+   "e": "E-Business ist der Oberbegriff für alle elektronisch abgewickelten Geschäftsprozesse, E-Commerce bezeichnet darin den Teilbereich des elektronischen Handels. Die umgekehrte Zuordnung ist ein häufiger Fehler."
+  },
+  {
+   "q": "Immer mehr Kunden der Exclusiva GmbH bestellen per Smartphone-App. Was kennzeichnet Mobile Commerce (M-Commerce)?",
+   "o": [
+    "Den Handel über einen Onlineshop, der ausschließlich am Desktop-PC genutzt wird",
+    "Den Vertrieb über mobile Verkaufsstellen wie Verkaufswagen und Messestände",
+    "Den Handel über Telefon und Katalog ohne Nutzung des Internets",
+    "Geschäftsbeziehungen und Käufe über mobile Endgeräte wie Smartphones und Tablets"
+   ],
+   "c": 3,
+   "e": "M-Commerce ist der Teil des E-Commerce, der über mobile internetfähige Endgeräte abgewickelt wird. Der Desktop-Onlineshop ist klassischer E-Commerce, mobile Verkaufsstellen gehören zum stationären Vertrieb."
+  },
+  {
+   "q": "Wofür steht die Abkürzung B2C im E-Commerce?",
+   "o": [
+    "Business-to-Company",
+    "Business-to-Consumer",
+    "Business-to-Customer-Service",
+    "Business-to-Commerce"
+   ],
+   "c": 1,
+   "e": "B2C steht für Business-to-Consumer und bezeichnet Geschäftsbeziehungen zwischen Unternehmen und privaten Endverbrauchern. Geschäfte zwischen Unternehmen (Company) wären dagegen B2B."
+  },
+  {
+   "q": "Die Exclusiva GmbH verkauft als Großhändler über ihr Bestellportal Waren an Einzelhändler. Welche E-Commerce-Art liegt vor?",
+   "o": [
+    "B2C (Business-to-Consumer)",
+    "C2C (Consumer-to-Consumer)",
+    "B2B (Business-to-Business)",
+    "B2A (Business-to-Administration)"
+   ],
+   "c": 2,
+   "e": "Beide Geschäftspartner sind Unternehmen, daher handelt es sich um Business-to-Business. B2C läge nur vor, wenn an private Endverbraucher verkauft würde."
+  },
+  {
+   "q": "Eine Privatperson verkauft ihr gebrauchtes Fahrrad über eine Auktionsplattform an eine andere Privatperson. Welche E-Commerce-Art liegt vor?",
+   "o": [
+    "B2C (Business-to-Consumer)",
+    "C2C (Consumer-to-Consumer)",
+    "C2B (Consumer-to-Business)",
+    "B2B (Business-to-Business)"
+   ],
+   "c": 1,
+   "e": "Verkäufer und Käufer sind private Endverbraucher, daher liegt Consumer-to-Consumer vor. Die Plattform ist nur Vermittler und macht das Geschäft nicht zu B2C."
+  },
+  {
+   "q": "Welche Bedeutung hat die Ziffer 2 in Abkürzungen wie B2C oder B2B?",
+   "o": [
+    "Sie steht für „second“ und kennzeichnet die zweite Handelsstufe",
+    "Sie steht für „two-way“ und kennzeichnet den beidseitigen Austausch",
+    "Sie steht für „two“ und kennzeichnet zwei beteiligte Unternehmen",
+    "Sie steht für „to“ und kennzeichnet die Richtung der Geschäftsbeziehung"
+   ],
+   "c": 3,
+   "e": "Die Ziffer 2 wird im Englischen wie „to“ ausgesprochen und beschreibt die Richtung vom Anbieter zum Abnehmer, etwa Business to Consumer. Mit der Zahl zwei oder einer zweiten Handelsstufe hat sie nichts zu tun."
+  },
+  {
+   "q": "Die Exclusiva GmbH überlegt, ob sie ihre Waren künftig auch über Marktplätze und Einzelhändler anbieten soll. Welchem Instrument des Marketing-Mix ist diese Entscheidung zuzuordnen?",
+   "o": [
+    "Der Distributionspolitik, die den Weg der Ware zum Kunden steuert",
+    "Der Preispolitik, die Konditionen und Rabatte für die Kunden festlegt",
+    "Der Kommunikationspolitik, die Werbung und Kundenansprache gestaltet",
+    "Der Produktpolitik, die Sortiment und Produktqualität bestimmt"
+   ],
+   "c": 0,
+   "e": "Die Distributionspolitik legt fest, über welche Absatzwege und Vertriebskanäle die Ware zum Kunden gelangt. Preise, Werbung und Sortiment sind die übrigen Instrumente des Marketing-Mix."
+  },
+  {
+   "q": "Was kennzeichnet den direkten Absatz?",
+   "o": [
+    "Der Hersteller verkauft über den Großhandel an den Einzelhandel",
+    "Der Hersteller lässt seine Waren durch Handelsvertreter vermitteln",
+    "Der Hersteller beauftragt Kommissionäre mit dem Verkauf im eigenen Namen",
+    "Der Hersteller verkauft ohne zwischengeschaltete Handelsstufe an den Kunden"
+   ],
+   "c": 3,
+   "e": "Beim direkten Absatz gelangt die Ware ohne selbstständige Handelsbetriebe vom Hersteller zum Kunden, zum Beispiel über den eigenen Webshop oder Werksverkauf. Sobald Groß- oder Einzelhandel dazwischenstehen, liegt indirekter Absatz vor."
+  },
+  {
+   "q": "Welcher der folgenden Vertriebswege gehört zum indirekten Absatz?",
+   "o": [
+    "Verkauf über den eigenen Webshop des Herstellers",
+    "Verkauf über den Werksverkauf am Produktionsstandort",
+    "Verkauf über selbstständige Einzelhändler",
+    "Verkauf über das eigene Ladengeschäft des Herstellers"
+   ],
+   "c": 2,
+   "e": "Beim indirekten Absatz ist mindestens eine selbstständige Handelsstufe wie der Einzelhandel zwischengeschaltet. Eigener Webshop, Werksverkauf und eigenes Ladengeschäft sind Formen des direkten Absatzes."
+  },
+  {
+   "q": "Wofür steht die Abkürzung SEO im Online-Marketing?",
+   "o": [
+    "Search Engine Optimization",
+    "Search Engine Operation",
+    "Sales Engine Optimization",
+    "Social Engagement Optimization"
+   ],
+   "c": 0,
+   "e": "SEO steht für Search Engine Optimization, also Suchmaschinenoptimierung, mit dem Ziel, in den organischen Suchergebnissen besser gefunden zu werden. Die anderen Auflösungen sind keine gebräuchlichen Fachbegriffe."
+  },
+  {
+   "q": "Worin besteht der wesentliche Unterschied zwischen SEO und SEA?",
+   "o": [
+    "SEO wirkt nur bei Onlineshops, SEA wirkt nur bei Unternehmenswebsites",
+    "SEO verbessert die organischen Treffer, SEA sind bezahlte Suchanzeigen",
+    "SEO sind bezahlte Suchanzeigen, SEA verbessert die organischen Treffer",
+    "SEO betrifft die Suchmaschine Google, SEA betrifft alle übrigen Suchmaschinen"
+   ],
+   "c": 1,
+   "e": "SEO (Search Engine Optimization) verbessert die unbezahlte, organische Platzierung, SEA (Search Engine Advertising) bezeichnet bezahlte Anzeigen in den Suchergebnissen. Die Vertauschung beider Begriffe ist die typische Verwechslung."
+  },
+  {
+   "q": "Die Exclusiva GmbH möchte Blogbetreiber dafür bezahlen, dass sie über Links Käufer in den Webshop vermitteln. Welches Instrument des Online-Marketings ist das?",
+   "o": [
+    "Influencer-Marketing, bei dem Produkte gegen Honorar präsentiert werden",
+    "Content-Marketing, bei dem nützliche Inhalte Kunden anziehen sollen",
+    "Display-Advertising, bei dem Bannerwerbung auf fremden Seiten geschaltet wird",
+    "Affiliate-Marketing, bei dem Partner gegen Provision Käufer vermitteln"
+   ],
+   "c": 3,
+   "e": "Beim Affiliate-Marketing erhalten Partner (Affiliates) eine erfolgsabhängige Provision für vermittelte Käufe oder Kontakte. Beim Influencer-Marketing wird dagegen meist ein festes Honorar für die Präsentation gezahlt."
+  },
+  {
+   "q": "Welcher Vorteil spricht für den Verkauf über große Verkaufsplattformen wie Amazon oder eBay?",
+   "o": [
+    "Der Händler behält die volle Hoheit über die Kundendaten",
+    "Der Händler ist vollständig unabhängig vom Plattformbetreiber",
+    "Der Händler profitiert von hoher Reichweite und vorhandenem Kundenvertrauen",
+    "Der Händler zahlt keinerlei Gebühren für die Nutzung der Plattform"
+   ],
+   "c": 2,
+   "e": "Große Plattformen bringen viele Besucher und genießen bereits das Vertrauen der Kunden, was den Einstieg erleichtert. Datenhoheit und Unabhängigkeit gehören dagegen zu den Vorteilen des eigenen Webshops."
+  },
+  {
+   "q": "Welcher Nachteil ergibt sich beim Plattformverkauf im Vergleich zum eigenen Webshop?",
+   "o": [
+    "Gebühren und Abhängigkeit vom Plattformbetreiber",
+    "Geringere Reichweite bei potenziellen Neukunden",
+    "Höherer Aufwand für den Aufbau des Kundenvertrauens",
+    "Fehlende Möglichkeit, gängige Zahlungsarten anzubieten"
+   ],
+   "c": 0,
+   "e": "Plattformen verlangen Verkaufsgebühren und geben Regeln vor, von denen der Händler abhängig ist. Reichweite und Kundenvertrauen sind gerade die Stärken der Plattformen, nicht ihre Schwächen."
+  },
+  {
+   "q": "Die Exclusiva GmbH verkauft über Webshop, Ladengeschäft und Katalog, ohne dass die Kanäle miteinander verbunden sind. Welcher Begriff beschreibt diese Vertriebsform?",
+   "o": [
+    "Single-Channel-Vertrieb über einen ausgewählten Kanal",
+    "Multichannel-Vertrieb über mehrere Kanäle nebeneinander",
+    "Omnichannel-Vertrieb über vollständig verzahnte Kanäle",
+    "Cross-Channel-Vertrieb über ausschließlich digitale Kanäle"
+   ],
+   "c": 1,
+   "e": "Beim Multichannel-Vertrieb werden mehrere Vertriebskanäle parallel genutzt, ohne dass sie zwingend miteinander verknüpft sind. Erst die vollständige Vernetzung aller Kanäle macht daraus Omnichannel."
+  },
+  {
+   "q": "Was unterscheidet den Omnichannel-Vertrieb vom Multichannel-Vertrieb?",
+   "o": [
+    "Beim Omnichannel werden ausschließlich digitale Kanäle eingesetzt",
+    "Beim Omnichannel werden weniger Kanäle als beim Multichannel genutzt",
+    "Beim Omnichannel arbeiten die Kanäle getrennt voneinander",
+    "Beim Omnichannel sind alle Kanäle miteinander verzahnt"
+   ],
+   "c": 3,
+   "e": "Omnichannel bedeutet, dass Online- und Offline-Kanäle nahtlos verknüpft sind und der Kunde jederzeit zwischen ihnen wechseln kann. Beim Multichannel bestehen die Kanäle zwar parallel, arbeiten aber weitgehend getrennt."
+  },
+  {
+   "q": "Welcher Kanal zählt zu den unternehmenseigenen Online-Vertriebswegen?",
+   "o": [
+    "Der eigene Webshop der Exclusiva GmbH",
+    "Das Verkäuferkonto auf einer fremden Auktionsplattform",
+    "Der Eintrag auf dem Preisvergleichsportal eines Dritten",
+    "Der Shop auf dem Marktplatz eines Handelspartners"
+   ],
+   "c": 0,
+   "e": "Nur der eigene Webshop wird vollständig vom Unternehmen betrieben und kontrolliert. Auktionsplattformen, Preisvergleichsportale und fremde Marktplätze sind unternehmensfremde Kanäle Dritter."
+  },
+  {
+   "q": "Ein Kunde bestellt online im Webshop der Exclusiva GmbH und holt die Ware in der Filiale ab. Wie heißt dieses Konzept?",
+   "o": [
+    "Cash and Carry",
+    "Pay per Click",
+    "Click and Collect",
+    "Ship from Store"
+   ],
+   "c": 2,
+   "e": "Click and Collect verbindet Online-Bestellung mit Abholung im stationären Geschäft und ist ein typisches Omnichannel-Element. Cash and Carry bezeichnet dagegen den Selbstabholer-Großhandel mit Barzahlung vor Ort."
+  },
+  {
+   "q": "Was versteht man unter E-Mail-Marketing als Instrument der Kundenansprache im Vertrieb?",
+   "o": [
+    "Den Versand von Rechnungen und Lieferscheinen per E-Mail",
+    "Newsletter und Angebots-Mails an bestehende und potenzielle Kunden",
+    "Die interne Abstimmung zwischen Vertrieb und Marketing per E-Mail",
+    "Die Beantwortung von Kundenanfragen über ein Ticketsystem"
+   ],
+   "c": 1,
+   "e": "E-Mail-Marketing nutzt Newsletter und personalisierte Angebots-Mails, um Kunden zu informieren und zum Kauf zu bewegen. Rechnungsversand und Anfragenbearbeitung sind Serviceprozesse, aber keine Marketingmaßnahmen."
+  }
+ ]
+}
